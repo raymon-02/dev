@@ -18,6 +18,7 @@ import com.w6.nlp.Parser;
 import com.w6.nlp.MySolrClient;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -59,7 +60,7 @@ public class EndpointController {
 
     private static final Gson gson = new GsonBuilder().create();
     
-    @RequestMapping(value = "post", method = RequestMethod.POST)
+    @RequestMapping(value = "/post", method = RequestMethod.POST)
     public ModelAndView post(
             @RequestParam("sourse") String sourse,
             @RequestParam("title") String title,           
@@ -75,7 +76,7 @@ public class EndpointController {
         return parse(article.id);
     }
 
-    @RequestMapping(value = "parse", method = RequestMethod.GET)
+    @RequestMapping(value = "/parse", method = RequestMethod.GET)
     public ModelAndView parse(@RequestParam("id") Long docId) throws IOException
     {
         Article text;
@@ -118,7 +119,7 @@ public class EndpointController {
         return displayDocumentsByEvent(Long.parseLong(id));
     }
     
-    @RequestMapping(value = "parse", method = RequestMethod.POST)
+    @RequestMapping(value = "/parse", method = RequestMethod.POST)
     public ModelAndView update(
             @RequestParam("id") long docId,    
             @RequestParam("event_select") long eventId,                
@@ -184,10 +185,10 @@ public class EndpointController {
         return modelAndView;
     }
     
-    @RequestMapping(value = "view", method = RequestMethod.GET)
+    @RequestMapping(value = "/view", method = RequestMethod.GET)
     public ModelAndView parse() throws IOException
     {
-        ArrayList<Article> text;
+        List<Article> text;
         try { 
             text = solrClient.getDocuments("*:*");
             ModelAndView modelAndView = new ModelAndView(QUERY_VIEW);
@@ -198,7 +199,7 @@ public class EndpointController {
             return new ModelAndView(W6_VIEW);
         }
     }
-    @RequestMapping(value = "relevant", method = RequestMethod.GET)
+    @RequestMapping(value = "/relevant", method = RequestMethod.GET)
     public ModelAndView relevant() throws IOException
     {
         ModelAndView modelAndView = new ModelAndView(QUERY_VIEW);
@@ -261,7 +262,7 @@ public class EndpointController {
         }
     }
 
-    @RequestMapping(value = "emails", method = RequestMethod.GET)
+    @RequestMapping(value = "/emails", method = RequestMethod.GET)
     public ModelAndView emails() throws IOException
     {
         ModelAndView modelAndView = new ModelAndView(EMAILS_VIEW);
@@ -273,7 +274,7 @@ public class EndpointController {
         return modelAndView;
     }
 
-    @RequestMapping(value = "", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView map() throws IOException, SolrServerException
     {
         ModelAndView modelAndView = new ModelAndView("index");
@@ -284,7 +285,7 @@ public class EndpointController {
 
     }
 
-    @RequestMapping(value = "report", method = RequestMethod.GET)
+    @RequestMapping(value = "/report", method = RequestMethod.GET)
     public ModelAndView report(@RequestParam("month") String month) throws IOException, SolrServerException
     {
         ModelAndView modelAndView = new ModelAndView(REPORT_VIEW);
@@ -321,10 +322,5 @@ public class EndpointController {
             new SecurityContextLogoutHandler().logout(request, response, auth);
         }
         return "redirect:/login?logout";
-    }
-
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String home() {
-        return "redirect:/input";
     }
 }
