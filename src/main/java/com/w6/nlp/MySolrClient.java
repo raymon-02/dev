@@ -1,23 +1,8 @@
 package com.w6.nlp;
 
-import com.google.code.geocoder.Geocoder;
-import com.google.code.geocoder.model.GeocodeResponse;
-import com.google.code.geocoder.model.GeocoderRequest;
-import com.google.code.geocoder.model.LatLng;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.w6.data.Article;
 import com.w6.data.Email;
 import com.w6.data.Event;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -26,6 +11,13 @@ import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 
 public class MySolrClient {
@@ -116,9 +108,9 @@ public class MySolrClient {
         return listOfDocuments.getNumFound();
     }
 
-    public ArrayList<Article> getDocuments(String keywords) throws SolrServerException, IOException
+    public List<Article> getDocuments(String keywords) throws SolrServerException, IOException
     {
-        ArrayList<Article> listOfDocuments = new ArrayList<>();
+        List<Article> listOfDocuments = new ArrayList<>();
         SolrQuery query = new SolrQuery(keywords);
         query.setRows(200);
         query.add("fl", "*,score");
@@ -219,6 +211,7 @@ public class MySolrClient {
         );
         if (document.keySet().contains("location"))
         {
+            //TODO: through setter
             article.location = document.getFirstValue("location").toString();
         }
         return article;
@@ -275,8 +268,8 @@ public class MySolrClient {
         return listOfDocuments.stream().map(document -> parseArticle(document)).collect(Collectors.toList());
     }
 
-    public ArrayList<Event> getEvents() throws SolrServerException, IOException {
-        ArrayList<Event> events = new ArrayList<>();
+    public List<Event> getEvents() throws SolrServerException, IOException {
+        List<Event> events = new ArrayList<>();
         long numberOfEvents = getNumberOfEvents();
 
         for (long documentId = 1; documentId <= numberOfEvents; ++documentId) {
@@ -334,8 +327,8 @@ public class MySolrClient {
         return emails;
     }
 
-    public ArrayList<Event> getEventsInRange(String startDate, String endDate) throws SolrServerException, IOException {
-        ArrayList<Event> events = new ArrayList<>();
+    public List<Event> getEventsInRange(String startDate, String endDate) throws SolrServerException, IOException {
+        List<Event> events = new ArrayList<>();
         long numberOfEvents = getNumberOfEvents();
 
         for (long documentId = 1; documentId <= numberOfEvents; ++documentId) {

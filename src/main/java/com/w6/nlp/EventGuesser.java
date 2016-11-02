@@ -11,6 +11,7 @@ import edu.stanford.nlp.ling.tokensregex.types.ValueFunctions;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Map;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -23,9 +24,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class EventGuesser {
     @Autowired
     private MySolrClient solrClient;
-    public ArrayList<Event> guessEvent(Article article) throws SolrServerException, IOException
+    public List<Event> guessEvent(Article article) throws SolrServerException, IOException
     {
-        ArrayList<Event> events = solrClient.getEvents();
+        List<Event> events = solrClient.getEvents();
         Map<Long, Float> eventsRating = solrClient.getEventsRating(article.id);
         events.sort((Event a, Event b) -> {
             float ratingOfA = 0;

@@ -1,26 +1,14 @@
 package com.w6.controller;
 
-import com.google.code.geocoder.Geocoder;
-import com.google.code.geocoder.model.GeocodeResponse;
-import com.google.code.geocoder.model.GeocoderRequest;
-import com.google.code.geocoder.model.GeocoderStatus;
-import static com.google.code.geocoder.model.GeocoderStatus.OK;
-import com.google.code.geocoder.model.LatLng;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.w6.data.Article;
 import com.w6.data.Email;
 import com.w6.data.Event;
-import com.w6.data.Response;
 import com.w6.external_api.Geolocator;
 import com.w6.nlp.EventGuesser;
-import com.w6.nlp.Parser;
 import com.w6.nlp.MySolrClient;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import com.w6.nlp.Parser;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -34,9 +22,17 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 @Controller
 public class EndpointController {
+
+    private static final Logger LOGGER = Logger.getLogger(EndpointController.class.getName());
+
     private static final String INPUT_VIEW = "input";
     private static final String W6_VIEW = "w6";
     private static final String UPLOAD_VIEW = "upload";
@@ -67,7 +63,7 @@ public class EndpointController {
             @RequestParam("text") String text
             ) throws IOException, SolrServerException
     {
-        Article article = new Article(new Long(-1), sourse, text, title, 
+        Article article = new Article(-1, sourse, text, title,
                 "",
                 -1
         );
@@ -94,7 +90,7 @@ public class EndpointController {
             
             return modelAndView;
         } catch (SolrServerException ex) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, null, ex);
             return new ModelAndView(W6_VIEW);
         }
         
@@ -114,7 +110,7 @@ public class EndpointController {
         try {
             solrClient.updateEventInSolr(event);
         } catch (SolrServerException ex) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, null, ex);
         }
         return displayDocumentsByEvent(Long.parseLong(id));
     }
@@ -164,7 +160,7 @@ public class EndpointController {
             }
             return modelAndView;
         } catch (SolrServerException e) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, e);
+            LOGGER.log(Level.SEVERE, null, e);
             return new ModelAndView(INPUT_VIEW);
         }
 
@@ -179,7 +175,7 @@ public class EndpointController {
            modelAndView.addObject("event", gson.toJson(solrClient.getEventById(docId))); 
            modelAndView.addObject("docList", gson.toJson(solrClient.getArticlesByEventId(docId)));
         } catch (SolrServerException e) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, e);
+            LOGGER.log(Level.SEVERE, null, e);
         }
         
         return modelAndView;
@@ -195,7 +191,7 @@ public class EndpointController {
             modelAndView.addObject("response", gson.toJson(text));
             return modelAndView;
         } catch (SolrServerException ex) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, null, ex);
             return new ModelAndView(W6_VIEW);
         }
     }
@@ -203,7 +199,7 @@ public class EndpointController {
     public ModelAndView relevant() throws IOException
     {
         ModelAndView modelAndView = new ModelAndView(QUERY_VIEW);
-        ArrayList<Article> documents;
+        List<Article> documents;
         try {
             documents = solrClient.getDocuments("   Involved\n" +
 "   Incident\n" +
@@ -257,7 +253,7 @@ public class EndpointController {
             modelAndView.addObject("response", gson.toJson(documents));
             return modelAndView;
         } catch (SolrServerException ex) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, null, ex);
             return new ModelAndView(W6_VIEW);
         }
     }
@@ -269,7 +265,7 @@ public class EndpointController {
         try {
             modelAndView.addObject("emails", gson.toJson(solrClient.getAllNewEmails()));
         } catch (SolrServerException ex) {
-            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, null, ex);
         }
         return modelAndView;
     }
@@ -279,19 +275,19 @@ public class EndpointController {
     {
         ModelAndView modelAndView = new ModelAndView("index");
 
-        ArrayList<Article> articles = solrClient.getDocuments("*:*");
+        //TODO: get only location field
+        List<Article> articles = solrClient.getDocuments("*:*");
         modelAndView.addObject("articles", gson.toJson(articles));
         return modelAndView;
-
     }
 
     @RequestMapping(value = "/report", method = RequestMethod.GET)
     public ModelAndView report(@RequestParam("month") String month) throws IOException, SolrServerException
     {
         ModelAndView modelAndView = new ModelAndView(REPORT_VIEW);
-        ArrayList<Event> eventsInRange = solrClient.getEventsInRange(month.concat("-01"), month.concat("-31"));
+        List<Event> eventsInRange = solrClient.getEventsInRange(month.concat("-01"), month.concat("-31"));
         modelAndView.addObject("events", gson.toJson(eventsInRange));
-        ArrayList<String[] > sourses = new ArrayList<>();
+        List<String[] > sourses = new ArrayList<>();
         
         for (Event event: eventsInRange)
         {
