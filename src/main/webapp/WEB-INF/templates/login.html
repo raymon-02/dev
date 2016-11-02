@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="container-fluid">
+        <div class="row">
+            <div th:if="${param.error}">
+                Invalid username and password
+            </div>
+            <div th:if="${param.logout}">
+                You have been signed out
+            </div>
+            <form th:action="@{/login}" method="post">
+                <table class="table">
+                    <tr>
+                        <td>User name:</td>
+                        <td><input type="text" name="username" title="user name"/></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="password" title="password"/></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Sign in"/>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

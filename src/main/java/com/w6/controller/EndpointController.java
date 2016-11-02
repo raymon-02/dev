@@ -9,6 +9,7 @@ import com.google.code.geocoder.model.LatLng;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.w6.data.Article;
+import com.w6.data.Email;
 import com.w6.data.Event;
 import com.w6.data.Response;
 import com.w6.external_api.Geolocator;
@@ -21,20 +22,27 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 @Controller
 public class EndpointController {
-    protected static final String INPUT_VIEW = "input";
-    protected static final String W6_VIEW = "w6";
-    protected static final String UPLOAD_VIEW = "upload";
-    protected static final String QUERY_VIEW = "query";
-    protected static final String DOCUMENTS_BY_EVENT_VIEW = "articlesOfEvent";
-    protected static final String REPORT_VIEW = "report";
+    private static final String INPUT_VIEW = "input";
+    private static final String W6_VIEW = "w6";
+    private static final String UPLOAD_VIEW = "upload";
+    private static final String QUERY_VIEW = "query";
+    private static final String DOCUMENTS_BY_EVENT_VIEW = "articlesOfEvent";
+    private static final String REPORT_VIEW = "report";
+    private static final String EMAILS_VIEW = "emails";
 
     @Autowired
     private Parser parser;
@@ -42,13 +50,13 @@ public class EndpointController {
     @Autowired
     protected MySolrClient solrClient;
     
-    @Autowired 
+    @Autowired
     private Geolocator geolocator;
-    
+
     @Autowired
     private EventGuesser eventGuesser;
-    
-    
+
+
     private static final Gson gson = new GsonBuilder().create();
     
     @RequestMapping(value = "post", method = RequestMethod.POST)
@@ -63,7 +71,6 @@ public class EndpointController {
                 -1
         );
         article.response = gson.toJson(parser.generateResponse(article));
-        article.location = gson.toJson(geolocator.findLocation(article));
         solrClient.uploadDataToSolr(article);
         return parse(article.id);
     }
@@ -140,11 +147,26 @@ public class EndpointController {
         return parse();
         
     }
-    
+
     @RequestMapping(value = "/input", method = RequestMethod.GET)
-    public String displayInput() 
+    public ModelAndView displayInput(@RequestParam(value = "email_id", required = false) Long emailId) throws IOException
     {
-        return INPUT_VIEW;
+        try {
+            ModelAndView modelAndView = new ModelAndView(INPUT_VIEW);
+            if (emailId != null)
+            {
+                Email email = solrClient.getEmailById(emailId+1);
+                if (email != null)
+                {
+                    modelAndView.addObject("email", gson.toJson(email));
+                }
+            }
+            return modelAndView;
+        } catch (SolrServerException e) {
+            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, e);
+            return new ModelAndView(INPUT_VIEW);
+        }
+
     }
     
     @RequestMapping(value = "/events/view", method = RequestMethod.GET)
@@ -156,7 +178,7 @@ public class EndpointController {
            modelAndView.addObject("event", gson.toJson(solrClient.getEventById(docId))); 
            modelAndView.addObject("docList", gson.toJson(solrClient.getArticlesByEventId(docId)));
         } catch (SolrServerException e) {
-             Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, e);
         }
         
         return modelAndView;
@@ -181,7 +203,7 @@ public class EndpointController {
     {
         ModelAndView modelAndView = new ModelAndView(QUERY_VIEW);
         ArrayList<Article> documents;
-        try { 
+        try {
             documents = solrClient.getDocuments("   Involved\n" +
 "   Incident\n" +
 "   Staff\n" +
@@ -238,7 +260,19 @@ public class EndpointController {
             return new ModelAndView(W6_VIEW);
         }
     }
-    
+
+    @RequestMapping(value = "emails", method = RequestMethod.GET)
+    public ModelAndView emails() throws IOException
+    {
+        ModelAndView modelAndView = new ModelAndView(EMAILS_VIEW);
+        try {
+            modelAndView.addObject("emails", gson.toJson(solrClient.getAllNewEmails()));
+        } catch (SolrServerException ex) {
+            Logger.getLogger(EndpointController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return modelAndView;
+    }
+
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ModelAndView map() throws IOException, SolrServerException
     {
@@ -249,6 +283,7 @@ public class EndpointController {
         return modelAndView;
 
     }
+
     @RequestMapping(value = "report", method = RequestMethod.GET)
     public ModelAndView report(@RequestParam("month") String month) throws IOException, SolrServerException
     {
@@ -272,7 +307,24 @@ public class EndpointController {
         modelAndView.addObject("month", month);
         
         return modelAndView;
-    }  
-    
-    
+    }
+
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login() {
+        return "login";
+    }
+
+    @RequestMapping(value="/logout", method = RequestMethod.GET)
+    public String logout (HttpServletRequest request, HttpServletResponse response) {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth != null){
+            new SecurityContextLogoutHandler().logout(request, response, auth);
+        }
+        return "redirect:/login?logout";
+    }
+
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String home() {
+        return "redirect:/input";
+    }
 }

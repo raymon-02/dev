@@ -1,0 +1,3 @@
+[submodule "W6-Assess-dev-credentials"]
+	path = W6-Assess-dev-credentials
+	url = https://github.com/raymon-02/W6-Assess-dev-credentials.git
