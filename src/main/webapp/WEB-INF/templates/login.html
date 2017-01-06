@@ -12,7 +12,7 @@
 <body>
 <div class="container">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" style="width: 30%; float: left">
             <div th:if="${param.error}">
                 Invalid username and password
             </div>
@@ -32,6 +32,9 @@
                 </table>
                 <input type="submit" value="Sign in"/>
             </form>
+        </div>
+        <div style="width: 50%; float: right; margin-top: 3%">
+            <a th:href="@{/gettingstarted}">Getting Started</a>
         </div>
     </div>
 </div>

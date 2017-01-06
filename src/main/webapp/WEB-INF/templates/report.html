@@ -49,8 +49,8 @@
                     document.getElementById("date-name").innerHTML = month.toLocaleString("en-us", {month: "long"})
                     document.getElementById("year-name").innerHTML = 1900 + month.getYear();
                     console.log(events);
-                    var sourses = [(${sourses})];
-                    console.log(sourses);
+                    var sources = [(${sources})];
+                    console.log(sources);
                     var i;
                     var output = "";
                     document.getElementById("report").innerHTML = output + "xyz";
@@ -81,7 +81,7 @@
                             output += '<div class="row"><div class="col-xs-3">' + events[i].date + '</div><div class="col-xs-9">';
                             currentDate = events[i].date;
                         }
-                        output += '<div class="row">' + events[i].description + "Sourses: " + sourses[i].join() + "</div>";
+                        output += '<div class="row">' + events[i].description + "Sources: " + sources[i].join() + "</div>";
                         currentCountry = events[i].country;
                     }
                     output += "</div></div></div></div></div></div>";

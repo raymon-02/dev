@@ -9,24 +9,24 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.w6.data.Article;
 import com.w6.data.Response;
-import java.io.IOException;
-import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.io.IOException;
+
 public class Geolocator {
+
     private final Gson gson = new GsonBuilder().create();
+
     @Autowired
     private Geocoder geocoder;
-    
-    public LatLng findLocation(final Article article) throws IOException
-    {
-        Response fromJson = gson.fromJson(article.response, Response.class);
-        for (String where: fromJson.getTable().getWhere())
-        {
+
+    public LatLng findLocation(final Article article) throws IOException {
+        Response fromJson = gson.fromJson(article.getResponse(), Response.class);
+
+        for (String where : fromJson.getTable().getWhere()) {
             GeocoderRequest request = new GeocoderRequest(where, "EN");
             GeocodeResponse geocode = geocoder.geocode(request);
-            if (geocode.getStatus() == GeocoderStatus.OK)
-            {
+            if (geocode.getStatus() == GeocoderStatus.OK) {
                 return geocode.getResults().get(0).getGeometry().getLocation();
             }
         }

@@ -19,12 +19,6 @@ import java.io.IOException;
 public class AppContext {
 
     @Bean
-    public MySolrClient mySolrClient() {
-        return new MySolrClient();
-    }
-
-
-    @Bean
     public LexicalizedParser lp() {
         return LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz");
     }
@@ -64,11 +58,5 @@ public class AppContext {
     public Geocoder geocoder()
     {
         return new Geocoder();
-    }
-    
-    @Bean
-    public EventGuesser eventGuesser()
-    {
-        return new EventGuesser();
     }
 }

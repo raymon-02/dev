@@ -1,33 +1,38 @@
 package com.w6.data;
 
-import com.google.code.geocoder.model.LatLng;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.apache.solr.client.solrj.beans.Field;
+import org.springframework.data.solr.core.mapping.Indexed;
+import org.springframework.data.solr.core.mapping.SolrDocument;
 
-public class Article 
-{
-    public String sourse;
-    public String text;
-    public String title;
-    public long id;
-    public String response;
-    public long eventId;
-    public String location;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@SolrDocument(solrCoreName = "core")
+public class Article {
 
-    public Article(long id, String sourse, String text, String title, String response, long eventId) {
-        this.id = id;
-        this.sourse = sourse;
-        this.text = text;
-        this.title = title;
-        this.response = response;
-        this.eventId = eventId;
-    }
+    @Field
+    private long id;
 
-    public Article(String sourse, String text, String title) {
-        this.sourse = sourse;
-        this.text = text;
-        this.title = title;
-    }
-    
-    public void setEventId(Long eventId) {
-        this.eventId = eventId;
-    }
+    @Field
+    private String source;
+
+    @Field
+    private String text;
+
+    @Field
+    private String title;
+
+    @Field
+    private String response;
+
+    @Field
+    private long eventId;
+
+    @Indexed(value = "score", readonly = true)
+    private Float score;
 }

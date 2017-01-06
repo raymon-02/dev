@@ -1,27 +1,34 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.w6.data;
 
-import java.util.Date;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.apache.solr.client.solrj.beans.Field;
+import org.springframework.data.solr.core.mapping.SolrDocument;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@SolrDocument(solrCoreName = "events")
 public class Event {
-    public long id;
-    //todo: make it date
-    public String date;
-    public String title; 
-    public String description; 
-    public String region;
-    public String country;
+    @Field
+    private long id;
 
-    public Event(long id, String date, String title, String description, String region, String country) {
-        this.id = id;
-        this.title = title;
-        this.date = date;
-        this.description = description;
-        this.region = region;
-        this.country = country;
-    }
+    //todo: make it date
+    @Field
+    private String date;
+
+    @Field
+    private String title;
+
+    @Field
+    private String description;
+
+    @Field
+    private String region;
+
+    @Field
+    private String country;
 }

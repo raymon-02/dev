@@ -1,0 +1,22 @@
+sudo: required
+
+git:
+  submodules: false
+
+language: java
+
+services:
+  - docker
+
+jdk:
+  - oraclejdk8
+
+script: 
+  - mvn test
+  - docker build -t $DOCKER_HUB_REP .
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+    docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+    docker push $DOCKER_HUB_REP
+    fi

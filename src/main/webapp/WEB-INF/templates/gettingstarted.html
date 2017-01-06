@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Getting Started</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
+
+    <style type="text/css">
+        #menu {
+            position: fixed;
+            right: 10%;
+            top: 10%;
+            color: black;
+            font-size: large;
+        }
+
+        #menu a {
+            color: inherit;
+        }
+
+        * > #menu {
+            position: fixed
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="width: 70%; float: left; margin-left: 3%">
+    <ul id="menu">
+        <li><a href="#auth">Authentication</a>
+        <li><a href="#input">Input</a>
+        <li><a href="#post">After parsing</a>
+        <li><a href="#event">Event creation</a>
+        <li><a href="#view">Articles view</a>
+        <li><a href="#event_view">Event view</a>
+        <li><a href="#report">Report</a>
+        <li><a href="#contacts">Contacts</a>
+    </ul>
+
+    <div class="col-sm-12 header" id="header">
+        <h1><img id="logo" class="logo" src="../../logo/Logo/W6.png"/></h1>
+        <h2 id="site-name">W6 assess</h2>
+        <h4 id="site-slogan">news based security profiling</h4>
+    </div>
+
+    <div id="getting_started">
+        <h1>Getting started</h1>
+    </div>
+
+    <div class="container-fluid" id="auth">
+        <h2>Authentication</h2>
+        <p>The first page of W6 site is authentication page.
+            There you have to enter user name and password and click the <i>Sign in</i>
+            button to proceed to use W6 site functionality according to your authorization. </p>
+        <p>At the authentication page any user has ability to read short <i>Getting started</i> tutorial
+            using <b>Getting started</b> link at the right part of page.</p>
+        <img src="../../logo/started/login_page.png" style="width: 100%">
+    </div>
+
+    <div class="container-fluid" id="input">
+        <h2>Input</h2>
+        <p>After authentication you get the input page where you could enter your article
+            with source and title in the corresponding fields.
+            Click the <i>Upload document</i> button to parse the article and get result.</p>
+        <p>To get input page again you should follow the next format of link:
+            <code>&lthost&gt:&ltport&gt/input</code></p>
+        <img src="../../logo/started/input_page.png" style="width: 100%">
+    </div>
+
+    <div class="container-fluid" id="post">
+        <h2>After parsing</h2>
+        <p>After parsing your article you get the page with parsing result.
+            At the left part of result page you see the article's text that was input earlier.
+            At the right part of result page you see the parsing result. It's presented
+            by table with six columns (Who, Weapon, What, Whom, Where, When).
+            Each column contains information that was obtained during parsing.</p>
+        <p>To get the page with parsing result again you should follow the next format of link:
+            <code>&lthost&gt:&ltport&gt/parse?id=&ltid&gt</code></p>
+        <img src="../../logo/started/post_page.png" style="width: 100%">
+    </div>
+
+    <div class="container-fluid" id="event">
+        <h2>Event creation</h2>
+        <p>After parsing article you are able to create an event filling all fields
+            on the page with parsing result.
+            Then click the <i>Upload document</i> button.</p>
+        <img src="../../logo/started/event_page.png" style="width: 100%">
+    </div>
+
+    <div class="container-fluid" id="view">
+        <h2>Articles view</h2>
+        <p>After creating the event you get the view page with all parsed articles
+            with their parsing results.</p>
+        <p>To get the page with all parsed articles again you should follow the next format of link:
+            <code>&lthost&gt:&ltport&gt/view</code></p>
+        <img src="../../logo/started/view.png" style="width: 100%">
+    </div>
+
+    <div class="container-fluid" id="event_view">
+        <h2>Event view</h2>
+        <p>You can get the event page by event's id to update existing event.
+            To get the event page you should follow the next format of link:
+            <code>&lthost&gt:&ltport&gt/events/view?&id=&ltevent_id&gt</code></p>
+        <img src="../../logo/started/event_view_before.png" style="width: 100%; margin-bottom: 5%">
+        <p>Let's update this event with changing description and date to the current year
+            (at creating this tutorial moment that was 2016).
+            Click the <i>Update event</i> button.</p>
+        <img src="../../logo/started/event_view_after.png" style="width: 100%">
+    </div>
+
+    <div class="container-fluid" id="report">
+        <h2>Report</h2>
+        <p>To get report for all events for specified month you should follow the next format of link:
+            <code>&lthost&gt:&ltport&gt/report?month=MM</code></p>
+        <img src="../../logo/started/report.png" style="width: 100%">
+    </div>
+
+    <div class="container" id="contacts" style="margin-bottom: 2%">
+        <h4>For all questions please contact:</h4>
+        <ul>
+            <li> <a href="mailto:belous.mikhail@gmail.com">Mikhail Belous</a>
+            <li> <a href="mailto:2x2.4raymon@gmail.com">Ilia Orlov</a>
+            <li> <a href="mailto:arsenytsypushkin@gmail.com">Arseny Tsypushkin</a>
+            <li> <a href="mailto:learp@yandex.ru">Egor Golovanov</a>
+        </ul>
+    </div>
+
+    <div id="footer" style="font-size: 15px;">
+        <div class="container">
+            <p class="muted credit">W6 project copyright <a href="">2016</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

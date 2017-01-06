@@ -55,7 +55,7 @@ public class Parser {
     
     public Response generateResponse(final Article article) {
 
-        final String input = article.text;
+        final String input = article.getText();
         List<String> who = new ArrayList<String>();
         List<String> weapon = new ArrayList<String>();
         List<String> whom = new ArrayList<String>();
@@ -266,7 +266,7 @@ public class Parser {
     class WordComparator implements Comparator<Pair<String, Double>>{
         @Override
         public int compare(Pair<String, Double> a, Pair<String, Double> b) {
-            return a.second < b.second ? 1 : a.second == b.second ? 0 : -1;
+            return a.second < b.second ? 1 : a.second.equals(b.second) ? 0 : -1;
         }
     }
 }
