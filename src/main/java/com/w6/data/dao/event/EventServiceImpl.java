@@ -25,7 +25,6 @@ public class EventServiceImpl implements EventService {
     private EventRepository eventRepository;
 
     @Override
-
     public Event findById(long id) {
         return eventRepository.findById(id);
     }
