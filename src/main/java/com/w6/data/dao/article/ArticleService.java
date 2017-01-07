@@ -16,4 +16,6 @@ public interface ArticleService {
     Article save(Article article);
 
     List<Article> findByIdOrMoreLikeThisByText(long id);
+
+    List<Article> findByKeywords(String keywords);
 }

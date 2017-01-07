@@ -33,6 +33,9 @@ public class Article {
     @Field
     private long eventId;
 
+    @Field
+    public String location;
+
     @Indexed(value = "score", readonly = true)
     private Float score;
 }

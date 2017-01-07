@@ -8,6 +8,7 @@ import com.w6.data.Event;
 import com.w6.data.dao.article.ArticleService;
 import com.w6.data.dao.email.EmailService;
 import com.w6.data.dao.event.EventService;
+import com.w6.external_api.Geolocator;
 import com.w6.nlp.Parser;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,6 +24,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -40,6 +43,9 @@ public class EndpointController {
     private Parser parser;
 
     @Autowired
+    private Geolocator geolocator;
+
+    @Autowired
     private ArticleService articleService;
 
     @Autowired
@@ -55,7 +61,7 @@ public class EndpointController {
             @RequestParam("source") String source,
             @RequestParam("title") String title,
             @RequestParam("text") String text
-    ) {
+    ) throws IOException {
         Article article = Article.builder()
                 .id(-1)
                 .source(source)
@@ -64,7 +70,7 @@ public class EndpointController {
                 .eventId(-1)
                 .build();
         article.setResponse(gson.toJson(parser.generateResponse(article)));
-
+        article.setLocation(gson.toJson(geolocator.findLocation(article)));
         articleService.save(article);
 
         return parse(article.getId());
@@ -169,6 +175,64 @@ public class EndpointController {
         return modelAndView;
     }
 
+    @RequestMapping(value = "relevant", method = RequestMethod.GET)
+    public ModelAndView relevant() {
+        ModelAndView modelAndView = new ModelAndView(QUERY_VIEW);
+
+        List<Article> articles = articleService.findByKeywords(
+                "   Involved\n" +
+                        "   Incident\n" +
+                        "   Staff\n" +
+                        "   IMC\n" +
+                        "   aid\n" +
+                        "   Office\n" +
+                        "    security\n" +
+                        "    NGO\n" +
+                        "    killed\n" +
+                        "    Afghanistan\n" +
+                        "    Deaths\n" +
+                        "    police\n" +
+                        "    workers\n" +
+                        "    Afghan\n" +
+                        "    Taliban\n" +
+                        "    Vehicle\n" +
+                        "    international\n" +
+                        "    government\n" +
+                        "    humanitarian\n" +
+                        "    Security\n" +
+                        "    UN\n" +
+                        "    Incidents\n" +
+                        "    Pakistan\n" +
+                        "    kidnapped\n" +
+                        "    armed\n" +
+                        "    hospital\n" +
+                        "    Injuries\n" +
+                        "    WFP\n" +
+                        "    CMT \n" +
+                        "    HQ\n" +
+                        "    AOG\n" +
+                        "    Evacuation\n" +
+                        "    Relocation\n" +
+                        "    Weapon\n" +
+                        "    Violation\n" +
+                        "    Property\n" +
+                        "    Equipment\n" +
+                        "    members\n" +
+                        "    military\n" +
+                        "    officials\n" +
+                        "    Chad\n" +
+                        "    foreign\n" +
+                        "    suicide\n" +
+                        "    Darfur\n" +
+                        "    NGOs\n" +
+                        "    MSF\n" +
+                        "   ICRC\n" +
+                        "  U.N.\n" +
+                        "    injured");
+        modelAndView.addObject("response", gson.toJson(articles));
+        return modelAndView;
+    }
+
     @RequestMapping(value = "emails", method = RequestMethod.GET)
     public ModelAndView emails() {
         ModelAndView modelAndView = new ModelAndView(EMAILS_VIEW);
@@ -216,8 +280,11 @@ public class EndpointController {
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String home() {
-        return "redirect:/input";
+    public String home(Model model) {
+        List<Article> articles = articleService.findAll();
+        model.addAttribute("articles", gson.toJson(articles));
+
+        return "index";
     }
 
     @RequestMapping(value = "/gettingstarted", method = RequestMethod.GET)

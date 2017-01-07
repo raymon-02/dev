@@ -3,9 +3,7 @@ package com.w6.data.dao.article;
 import com.w6.data.Article;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.solr.core.DefaultQueryParser;
 import org.springframework.data.solr.core.SolrTemplate;
-import org.springframework.data.solr.core.query.SimpleQuery;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -50,12 +48,18 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public List<Article> findByIdOrMoreLikeThisByText(long id) {
-        SimpleQuery simpleQuery = new SimpleQuery("id:" + id + " or mlt.fl=text");
-        simpleQuery.setRows(20);
-        simpleQuery.addProjectionOnField("*");
-        simpleQuery.addProjectionOnField("score");
-        DefaultQueryParser defaultQueryParser = new DefaultQueryParser();
-        SolrQuery solrQuery = defaultQueryParser.doConstructSolrQuery(simpleQuery);
+        return executeQuery("id:" + id + " or mlt.fl=text", 20);
+    }
+
+    @Override
+    public List<Article> findByKeywords(String keywords) {
+        return executeQuery(keywords, 200);
+    }
+
+    private List<Article> executeQuery(String query, int rows) {
+        SolrQuery solrQuery = new SolrQuery(query);
+        solrQuery.setRows(rows);
+        solrQuery.add("fl", "*,score");
 
         return articleTemplate.execute(solrClient ->
                 articleTemplate.getConverter().read(solrClient.query(solrQuery).getResults(), Article.class));
