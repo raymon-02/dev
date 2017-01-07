@@ -1,19 +1,15 @@
 package com.w6.email;
 
 import com.sun.mail.pop3.POP3SSLStore;
-import com.sun.tools.internal.ws.wsdl.document.jaxws.Exception;
 
-import java.util.*;
+import javax.mail.*;
+import javax.mail.search.FlagTerm;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.mail.Flags;
-import javax.mail.Folder;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Store;
-import javax.mail.URLName;
-import javax.mail.search.FlagTerm;
 
 class GmailClient {
 

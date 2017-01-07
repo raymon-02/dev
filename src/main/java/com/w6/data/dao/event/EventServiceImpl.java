@@ -3,11 +3,7 @@ package com.w6.data.dao.event;
 import com.w6.data.Article;
 import com.w6.data.Event;
 import com.w6.data.dao.article.ArticleService;
-import org.apache.solr.client.solrj.SolrQuery;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.solr.core.DefaultQueryParser;
-import org.springframework.data.solr.core.SolrTemplate;
-import org.springframework.data.solr.core.query.SimpleQuery;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

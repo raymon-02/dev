@@ -1,6 +1,7 @@
 package com.w6.data;
 
 import edu.stanford.nlp.util.Pair;
+
 import java.util.List;
 
 public class Node {

@@ -1,7 +1,8 @@
 package com.w6.nlp;
 
-import com.w6.data.*;
-
+import com.w6.data.CollectionOfWords;
+import com.w6.data.Node;
+import com.w6.data.WordOfCollections;
 import edu.stanford.nlp.trees.TypedDependency;
 import edu.stanford.nlp.util.Pair;
 

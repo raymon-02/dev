@@ -2,7 +2,10 @@ package com.w6.config;
 
 import com.google.code.geocoder.Geocoder;
 import com.w6.external_api.Geolocator;
-import com.w6.nlp.*;
+import com.w6.nlp.CountryParser;
+import com.w6.nlp.Parser;
+import com.w6.nlp.ViolentVerbsParser;
+import com.w6.nlp.WeaponsParser;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
 import edu.stanford.nlp.process.CoreLabelTokenFactory;
