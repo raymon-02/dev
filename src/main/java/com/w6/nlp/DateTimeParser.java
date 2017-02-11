@@ -1,9 +1,7 @@
 package com.w6.nlp;
 
-import com.w6.data.CollectionOfWords;
-import edu.stanford.nlp.simple.*;
+import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.TypedDependency;
-import edu.stanford.nlp.util.Pair;
 
 import java.util.ArrayList;
 import java.util.Collection;

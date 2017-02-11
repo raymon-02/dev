@@ -1,40 +1,20 @@
 package com.w6.nlp;
 
 import com.w6.data.Article;
-import com.w6.data.Table;
 import com.w6.data.Response;
+import com.w6.data.Table;
 import com.w6.data.Word;
-
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.CoreLabelTokenFactory;
-import edu.stanford.nlp.process.PTBTokenizer;
 import edu.stanford.nlp.process.TokenizerFactory;
 import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.simple.Sentence;
-import edu.stanford.nlp.trees.GrammaticalStructure;
-import edu.stanford.nlp.trees.GrammaticalStructureFactory;
-import edu.stanford.nlp.trees.PennTreebankLanguagePack;
-import edu.stanford.nlp.trees.Tree;
-import edu.stanford.nlp.trees.TreebankLanguagePack;
-import edu.stanford.nlp.trees.TypedDependency;
+import edu.stanford.nlp.trees.*;
 import edu.stanford.nlp.util.Pair;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-import java.io.IOException;
 
 import java.io.StringReader;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Parser {
 

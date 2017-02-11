@@ -18,86 +18,121 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 header" id="header">
-            <h1 id="logo">
-                <img id="logo" class="logo" src="../logo/Logo/W6.png"/>
-            </h1>
-            <h2 id="site-name">W6 assess</h2>
-            <h4 id="site-slogan">news based security profiling</h4>
-        </div>
-        <div>
-            <div class="row">
+        <nav class="navbar navbar-default" style="margin-top:-10px; background:black;border:0px; " id="#myNavbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">
+                        <h1 id="logo">
+                            <img id="logo" class="logo" src="../logo/Logo/W6.png"/>
+                        </h1></div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" style="margin-top:15px;">
+
+
+                        <li>
+                            <a href="https://www.ifixe.ch/comment-ca-marche/">Comment �a marche?</a>
+                        </li>
+
+                        <li><a href="https://www.ifixe.ch/wp-login.php?action=login"><i
+                                class="login-awsome"></i>Se connecter</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+        </nav>
+
+    </div>
+</div>
+
+
+<div class="col-sm-12 header" id="header">
+
+    <h2 id="site-name">W6 assess</h2>
+    <h4 id="site-slogan">news based security profiling</h4>
+</div>
+<div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+
+                <form id="event_form" action="articlesOfEvent.html" th:action="@{/update/event}" method="post">
+                    <br>Event id:<br>
+                    <textarea id="eventId" name="eventId" cols="40" rows="1" readonly></textarea>
+                    <br>Event title:<br>
+                    <textarea id="eventTitle" name="eventTitle" cols="40" rows="1"></textarea>
+                    <br>Date:<br>
+                    <textarea id="eventDate" name="eventDate" cols="40" rows="1"></textarea>
+                    <br>Description:<br>
+                    <textarea id="eventDesc" name="eventDesc" cols="40" rows="1"></textarea>
+                    <br>Region:<br>
+                    <textarea id="eventReg" name="eventReg" cols="40" rows="1"></textarea>
+                    <br>Country:<br>
+                    <textarea id="eventCountry" name="eventCountry" cols="40" rows="1"></textarea>
+                    <br>
+                    <input type="submit" value="Update event"/>
+                    <br>
+                </form>
+
+                <script>
+                    function addCell(cell, text) {
+                        if (text != null)
+                            cell.innerHTML =
+                                    '<label style = "font-weight: normal;">' + text + "</label>"
+                            ;
+                    }
+                    window.onload = function () {
+                        var myEvent = [(${event})];
+                        var articlesArray = [(${docList})];
+                        console.log(myEvent);
+
+                        $("#event_form > #eventId").val(myEvent.id);
+                        $("#event_form > #eventTitle").val(myEvent.title);
+                        $("#event_form > #eventDate").val(myEvent.date);
+                        $("#event_form > #eventDesc").val(myEvent.description);
+                        $("#event_form > #eventReg").val(myEvent.region);
+                        $("#event_form > #eventCountry").val(myEvent.country);
+
+                        var i;
+                        for (i = 0; i < articlesArray.length; i++) {
+                            var table = document.getElementById("articleTable");
+                            var x = table.rows.length;
+                            var row = table.insertRow(x);
+                            addCell(row.insertCell(0), articlesArray[i].id);
+                            addCell(row.insertCell(1), articlesArray[i].source);
+                            addCell(row.insertCell(2), articlesArray[i].title);
+                            addCell(row.insertCell(3), articlesArray[i].text);
+                        }
+
+                    }
+                </script>
+
                 <div class="col-sm-6">
-                    <div class="form-group">
+                    <table id="articleTable" class="table" style="overflow:scroll">
+                        <thead>
+                        <tr>
+                            <th><span class="fa fa-circle id headertable" aria-hidden="true"></span> Id</th>
+                            <th><span class="fa fa-circle source headertable" aria-hidden="true"></span> Source</th>
+                            <th><span class="fa fa-circle title headertable" aria-hidden="true"></span> Title</th>
+                            <th><span class="fa fa-circle text headertable" aria-hidden="true"></span> Text</th>
 
-                        <form id="event_form" th:action="@{/update/event}" method="post">
-                            <br>Event id:<br>
-                            <textarea id="eventId" name="eventId" cols="40" rows="1" readonly></textarea>
-                            <br>Event title:<br>
-                            <textarea id="eventTitle" name="eventTitle" cols="40" rows="1"></textarea>
-                            <br>Date:<br>
-                            <textarea id="eventDate" name="eventDate" cols="40" rows="1"></textarea>
-                            <br>Description:<br>
-                            <textarea id="eventDesc" name="eventDesc" cols="40" rows="1"></textarea>
-                            <br>Region:<br>
-                            <textarea id="eventReg" name="eventReg" cols="40" rows="1"></textarea>
-                            <br>Country:<br>
-                            <textarea id="eventCountry" name="eventCountry" cols="40" rows="1"></textarea>
-                            <br>
-                            <input type="submit" value="Update event"/>
-                            <br>
-                        </form>
-
-                        <script>
-                            function addCell(cell, text) {
-                                if (text != null)
-                                    cell.innerHTML = '<label style = "font-weight: normal;">' + text + "</label>";
-                            }
-                            window.onload = function () {
-                                var myEvent = [(${event})];
-                                var articlesArray = [(${docList})];
-                                console.log(myEvent);
-
-                                $("#event_form > #eventId").val(myEvent.id);
-                                $("#event_form > #eventTitle").val(myEvent.title);
-                                $("#event_form > #eventDate").val(myEvent.date);
-                                $("#event_form > #eventDesc").val(myEvent.description);
-                                $("#event_form > #eventReg").val(myEvent.region);
-                                $("#event_form > #eventCountry").val(myEvent.country);
-
-                                var i;
-                                for (i = 0; i < articlesArray.length; i++) {
-                                    var table = document.getElementById("articleTable");
-                                    var x = table.rows.length;
-                                    var row = table.insertRow(x);
-                                    addCell(row.insertCell(0), articlesArray[i].id);
-                                    addCell(row.insertCell(1), articlesArray[i].source);
-                                    addCell(row.insertCell(2), articlesArray[i].title);
-                                    addCell(row.insertCell(3), articlesArray[i].text);
-                                }
-
-                            }
-                        </script>
-
-                        <div class="col-sm-6">
-                            <table id="articleTable" class="table" style="overflow:scroll">
-                                <thead>
-                                <tr>
-                                    <th><span class="fa fa-circle id headertable" aria-hidden="true"></span> Id</th>
-                                    <th><span class="fa fa-circle source headertable" aria-hidden="true"></span> Sourse
-                                    </th>
-                                    <th><span class="fa fa-circle title headertable" aria-hidden="true"></span> Title
-                                    </th>
-                                    <th><span class="fa fa-circle text headertable" aria-hidden="true"></span> Text</th>
-
-                                </tr>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-
+                        </tr>
+                        </thead>
+                    </table>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

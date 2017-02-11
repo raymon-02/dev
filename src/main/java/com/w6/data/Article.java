@@ -1,8 +1,17 @@
 package com.w6.data;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.apache.solr.client.solrj.beans.Field;
+import org.springframework.data.solr.core.mapping.Indexed;
 import org.springframework.data.solr.core.mapping.SolrDocument;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @SolrDocument(solrCoreName = "core")
 public class Article {
 
@@ -24,63 +33,9 @@ public class Article {
     @Field
     private long eventId;
 
-    public Article() {
-    }
+    @Field
+    public String location;
 
-    public Article(long id, String source, String text, String title, String response, long eventId) {
-        this.id = id;
-        this.source = source;
-        this.text = text;
-        this.title = title;
-        this.response = response;
-        this.eventId = eventId;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public String getSource() {
-        return source;
-    }
-
-    public String getText() {
-        return text;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getResponse() {
-        return response;
-    }
-
-    public long getEventId() {
-        return eventId;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public void setSource(String source) {
-        this.source = source;
-    }
-
-    public void setText(String text) {
-        this.text = text;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setResponse(String response) {
-        this.response = response;
-    }
-
-    public void setEventId(long eventId) {
-        this.eventId = eventId;
-    }
+    @Indexed(value = "score", readonly = true)
+    private Float score;
 }

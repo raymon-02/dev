@@ -1,21 +1,19 @@
 package com.w6.nlp;
 
+import com.w6.data.CollectionOfWords;
+import edu.stanford.nlp.ling.WordTag;
+import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
+import edu.stanford.nlp.process.Morphology;
+import edu.stanford.nlp.trees.Tree;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-import com.w6.data.CollectionOfWords;
-import edu.stanford.nlp.ling.WordTag;
-
-import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.Morphology;
-import edu.stanford.nlp.trees.Tree;
 
 public class WeaponsParser {
    private Set weapons;

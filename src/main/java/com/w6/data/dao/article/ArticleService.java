@@ -15,6 +15,7 @@ public interface ArticleService {
 
     Article save(Article article);
 
-    long count();
+    List<Article> findByIdOrMoreLikeThisByText(long id);
 
+    List<Article> findByKeywords(String keywords);
 }

@@ -1,17 +1,27 @@
 package com.w6.data.dao.event;
 
+import com.w6.data.Article;
 import com.w6.data.Event;
+import com.w6.data.dao.article.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.StreamSupport;
+
+import static java.util.stream.Collectors.toList;
 
 @Service
 public class EventServiceImpl implements EventService {
 
     @Autowired
+    private ArticleService articleService;
+
+    @Autowired
     private EventRepository eventRepository;
+
 
     @Override
     public Event findById(long id) {
@@ -19,18 +29,9 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public List<Event> findAll() {
-        List<Event> result = new ArrayList<>();
-        eventRepository.findAll().forEach(result::add);
-
-        return result;
-    }
-
-    @Override
     public List<Event> findByDateStartingWith(String datePrefix) {
         return eventRepository.findByDateStartingWith(datePrefix);
     }
-
 
     @Override
     public Event save(Event event) {
@@ -42,7 +43,42 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public long count() {
-        return eventRepository.count();
+    public List<Event> findAll() {
+        return StreamSupport.stream(eventRepository.findAll().spliterator(), false)
+                .collect(toList());
     }
+
+
+    @Override
+    public List<Event> guessEvent(Article article) {
+
+        List<Article> articles = articleService.findByIdOrMoreLikeThisByText(article.getId());
+
+        Map<Long, Float> rating = new HashMap<>();
+        for (Article articleInResponse : articles) {
+            Float articleInResponseRating = rating.get(articleInResponse.getEventId());
+
+            if (articleInResponseRating == null) {
+                rating.put(articleInResponse.getEventId(), articleInResponse.getScore());
+            } else {
+                rating.put(articleInResponse.getEventId(), articleInResponse.getScore() + articleInResponseRating);
+            }
+        }
+
+        List<Event> events = findAll();
+        events.sort((eventA, eventB) -> {
+            float eventAScore = rating.get(eventA.getId());
+            float eventBScore = rating.get(eventB.getId());
+            int comparedScore = Float.compare(eventBScore, eventAScore);
+
+            if (comparedScore == 0) {
+                return Long.compare(eventA.getId(), eventB.getId());
+            }
+
+            return comparedScore;
+        });
+
+        return events;
+    }
+
 }

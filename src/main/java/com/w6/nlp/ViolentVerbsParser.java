@@ -1,23 +1,18 @@
 package com.w6.nlp;
 
-import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.WordTag;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.CoreLabelTokenFactory;
 import edu.stanford.nlp.process.Morphology;
-import edu.stanford.nlp.process.PTBTokenizer;
-import edu.stanford.nlp.process.Tokenizer;
-import edu.stanford.nlp.process.TokenizerFactory;
 import edu.stanford.nlp.trees.Tree;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.StringReader;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class ViolentVerbsParser {
     

@@ -1,8 +1,7 @@
 package com.w6.nlp;
 
-import edu.stanford.nlp.trees.*;
+import edu.stanford.nlp.trees.TypedDependency;
 
-import com.w6.data.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

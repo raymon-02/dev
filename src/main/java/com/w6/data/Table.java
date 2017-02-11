@@ -5,6 +5,10 @@ import java.util.List;
 public class Table {
     final List<String> who, weapon, what, whom, where, when, country;
 
+    public List<String> getWhere() {
+        return where;
+    }
+
     public Table(
             List<String> who,
             List<String> weapon,
