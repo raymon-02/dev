@@ -6,10 +6,12 @@ import com.w6.data.dao.article.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.StreamSupport;
+
+import static java.util.stream.Collectors.toList;
 
 @Service
 public class EventServiceImpl implements EventService {
@@ -20,17 +22,16 @@ public class EventServiceImpl implements EventService {
     @Autowired
     private EventRepository eventRepository;
 
+
     @Override
     public Event findById(long id) {
         return eventRepository.findById(id);
     }
 
-
     @Override
     public List<Event> findByDateStartingWith(String datePrefix) {
         return eventRepository.findByDateStartingWith(datePrefix);
     }
-
 
     @Override
     public Event save(Event event) {
@@ -43,14 +44,8 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public List<Event> findAll() {
-        List<Event> result = new ArrayList<>();
-
-        Iterable<Event> events = eventRepository.findAll();
-        for (Event event : events) {
-            result.add(event);
-        }
-
-        return result;
+        return StreamSupport.stream(eventRepository.findAll().spliterator(), false)
+                .collect(toList());
     }
 
 
