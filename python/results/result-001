@@ -1,0 +1,4305 @@
+File: 1000_1874.txt
+exact answer: Afghanistan
+countries:    Pakistan
+
+File: 1001_1224.txt
+exact answer: Pakistan
+countries:    Pakistan
+
+File: 1001_1225.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1003_3024.txt
+decode error
+
+File: 1003_3025.txt
+decode error
+
+File: 1018_1226.txt
+exact answer: Pakistan
+countries:    
+
+File: 1023_1876.txt
+exact answer: no
+countries:    
+
+File: 1024_3026.txt
+exact answer: no
+countries:    Congo
+
+File: 1025_2988.txt
+exact answer: no
+countries:    Colombia
+
+File: 1086_1881.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1086_1882.txt
+exact answer: no
+countries:    Pakistan,Italy,Afghanistan
+
+File: 1086_1883.txt
+exact answer: no
+countries:    Pakistan,Italy,France,Afghanistan
+
+File: 1086_1884.txt
+exact answer: no
+countries:    Pakistan,Italy,Afghanistan
+
+File: 1086_1885.txt
+exact answer: no
+countries:    Pakistan,Italy,France,Afghanistan
+
+File: 1086_1886.txt
+exact answer: no
+countries:    Italy,Afghanistan
+
+File: 1086_1887.txt
+bad response
+
+File: 1086_1888.txt
+bad response
+
+File: 1086_1889.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1086_1890.txt
+exact answer: no
+countries:    Britain,Afghanistan
+
+File: 1086_1891.txt
+decode error
+
+File: 1086_1892.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1086_1893.txt
+decode error
+
+File: 1087_1894.txt
+decode error
+
+File: 1088_1895.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1088_1896.txt
+decode error
+
+File: 1088_1897.txt
+decode error
+
+File: 1088_1898.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1088_1899.txt
+decode error
+
+File: 1088_1900.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1089_1901.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1090_2525.txt
+exact answer: no
+countries:    Sudan,France,Chad
+
+File: 1090_2526.txt
+exact answer: no
+countries:    France
+
+File: 1090_2527.txt
+exact answer: no
+countries:    Philippines
+
+File: 1090_2528.txt
+exact answer: no
+countries:    Philippines
+
+File: 1090_2529.txt
+decode error
+
+File: 1090_2530.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 1090_2531.txt
+exact answer: no
+countries:    Chad
+
+File: 1090_2532.txt
+exact answer: no
+countries:    
+
+File: 1091_1227.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1091_1228.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1091_1229.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1091_1230.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 1091_1231.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1091_1232.txt
+decode error
+
+File: 1091_1234.txt
+decode error
+
+File: 1091_1235.txt
+decode error
+
+File: 1091_1236.txt
+decode error
+
+File: 1091_1237.txt
+decode error
+
+File: 1095_2188.txt
+decode error
+
+File: 1108_3277.txt
+decode error
+
+File: 1108_3278.txt
+decode error
+
+File: 1111_1238.txt
+exact answer: no
+countries:    Pakistan,Iran,France,Afghanistan
+
+File: 1111_1239.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1111_1240.txt
+decode error
+
+File: 1113_2394.txt
+decode error
+
+File: 1114_1902.txt
+decode error
+
+File: 1115_2621.txt
+exact answer: no
+countries:    Haiti
+
+File: 1115_2622.txt
+exact answer: no
+countries:    Haiti
+
+File: 1125_1903.txt
+decode error
+
+File: 1125_1904.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1125_1905.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1125_1906.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1125_1907.txt
+decode error
+
+File: 1134_3279.txt
+exact answer: no
+countries:    Congo
+
+File: 1134_3280.txt
+exact answer: no
+countries:    Rwanda,Congo,Belgium
+
+File: 1134_3281.txt
+decode error
+
+File: 1134_3282.txt
+exact answer: no
+countries:    Congo
+
+File: 1134_3283.txt
+decode error
+
+File: 1134_3284.txt
+decode error
+
+File: 1136_2533.txt
+exact answer: no
+countries:    France,Chad
+
+File: 1136_2534.txt
+exact answer: no
+countries:    Chad
+
+File: 1136_2535.txt
+exact answer: no
+countries:    Chad,Bangladesh,Afghanistan
+
+File: 113_2225.txt
+exact answer: no
+countries:    Bolivia
+
+File: 1144_2235.txt
+exact answer: no
+countries:    Burundi
+
+File: 1145_1241.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1153_1242.txt
+bad response
+
+File: 1155_1244.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1155_1245.txt
+exact answer: no
+countries:    
+
+File: 1155_1246.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1155_1247.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1156_1908.txt
+decode error
+
+File: 1158_1248.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1158_1249.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1158_1250.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1158_1251.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1158_1252.txt
+decode error
+
+File: 1158_1253.txt
+decode error
+
+File: 1158_1254.txt
+decode error
+
+File: 1158_1255.txt
+decode error
+
+File: 1158_1256.txt
+decode error
+
+File: 1158_1257.txt
+decode error
+
+File: 1159_1909.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1160_1910.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1161_1911.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1161_1912.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1161_1913.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1161_1914.txt
+decode error
+
+File: 1161_1915.txt
+exact answer: no
+countries:    Iraq,Afghanistan
+
+File: 1163_1725.txt
+exact answer: no
+countries:    Sudan
+
+File: 1165_1917.txt
+decode error
+
+File: 1168_2544.txt
+exact answer: no
+countries:    France
+
+File: 1169_1258.txt
+exact answer: no
+countries:    
+
+File: 1169_1259.txt
+exact answer: no
+countries:    Pakistan,India
+
+File: 1169_1260.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1169_1261.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 1169_1262.txt
+decode error
+
+File: 1196_1924.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1196_1925.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1196_1926.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1196_1927.txt
+exact answer: no
+countries:    Pakistan,Britain,Afghanistan
+
+File: 1196_1928.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1196_1929.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1196_1930.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1196_1931.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1196_1932.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1196_1933.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1196_1934.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1196_1935.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1196_1936.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1197_2209.txt
+decode error
+
+File: 1197_2210.txt
+exact answer: no
+countries:    Sudan,Ireland
+
+File: 1197_2211.txt
+exact answer: no
+countries:    France
+
+File: 11_988.txt
+exact answer: no
+countries:    
+
+File: 11_989.txt
+decode error
+
+File: 1204_1937.txt
+exact answer: no
+countries:    Tajikistan,Afghanistan
+
+File: 1204_1938.txt
+bad response
+
+File: 1204_1939.txt
+exact answer: no
+countries:    Britain
+
+File: 1204_1940.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 1204_1941.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1204_1942.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1204_1943.txt
+decode error
+
+File: 1204_1944.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1204_1945.txt
+decode error
+
+File: 1206_3285.txt
+decode error
+
+File: 1207_1179.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1208_1263.txt
+decode error
+
+File: 1208_1264.txt
+exact answer: no
+countries:    
+
+File: 1211_1946.txt
+decode error
+
+File: 1216_1265.txt
+decode error
+
+File: 1218_1947.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 1218_1948.txt
+bad response
+
+File: 1218_1949.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1218_1950.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1218_1951.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1218_1952.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1218_1953.txt
+exact answer: no
+countries:    
+
+File: 1218_1954.txt
+exact answer: no
+countries:    Pakistan,India,France,Afghanistan
+
+File: 1218_1955.txt
+decode error
+
+File: 1218_1956.txt
+decode error
+
+File: 1218_1957.txt
+decode error
+
+File: 1218_1958.txt
+decode error
+
+File: 1218_1959.txt
+decode error
+
+File: 1219_1266.txt
+decode error
+
+File: 1222_2227.txt
+decode error
+
+File: 1223_2228.txt
+decode error
+
+File: 1224_1960.txt
+decode error
+
+File: 1227_1961.txt
+decode error
+
+File: 1230_1962.txt
+decode error
+
+File: 1234_1267.txt
+decode error
+
+File: 1237_1963.txt
+decode error
+
+File: 1241_1964.txt
+decode error
+
+File: 1244_1965.txt
+decode error
+
+File: 1257_1966.txt
+decode error
+
+File: 1266_1967.txt
+decode error
+
+File: 1267_1968.txt
+decode error
+
+File: 1268_2236.txt
+decode error
+
+File: 1269_1969.txt
+decode error
+
+File: 1273_1970.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1312_1268.txt
+decode error
+
+File: 1359_1971.txt
+decode error
+
+File: 1457_2055.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1464_1276.txt
+decode error
+
+File: 1469_1277.txt
+decode error
+
+File: 1470_1278.txt
+decode error
+
+File: 1471_1279.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1471_1280.txt
+decode error
+
+File: 1474_1281.txt
+decode error
+
+File: 1475_1282.txt
+decode error
+
+File: 1477_1283.txt
+decode error
+
+File: 1480_1284.txt
+decode error
+
+File: 1482_1285.txt
+exact answer: no
+countries:    
+
+File: 1483_1286.txt
+decode error
+
+File: 1485_1287.txt
+decode error
+
+File: 1489_1288.txt
+decode error
+
+File: 1496_1290.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1497_3297.txt
+exact answer: no
+countries:    Rwanda
+
+File: 1499_2229.txt
+exact answer: no
+countries:    France
+
+File: 14_1610.txt
+exact answer: no
+countries:    Pakistan,Netherlands,Afghanistan
+
+File: 14_1611.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 14_1612.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 14_1613.txt
+exact answer: no
+countries:    Canada,Afghanistan
+
+File: 1501_1291.txt
+exact answer: no
+countries:    Pakistan,Ireland
+
+File: 1501_1292.txt
+decode error
+
+File: 1501_1293.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1502_2056.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1502_2057.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1502_2058.txt
+exact answer: no
+countries:    Netherlands,Afghanistan
+
+File: 1502_2059.txt
+exact answer: no
+countries:    Netherlands,Afghanistan
+
+File: 1502_2060.txt
+exact answer: no
+countries:    Netherlands,Afghanistan
+
+File: 1502_2061.txt
+decode error
+
+File: 1503_2062.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1503_2063.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1504_1294.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 1507_2064.txt
+exact answer: no
+countries:    
+
+File: 1508_1295.txt
+exact answer: no
+countries:    Pakistan,France,Afghanistan
+
+File: 1508_1296.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1508_1297.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1508_1298.txt
+exact answer: no
+countries:    
+
+File: 1508_1299.txt
+exact answer: no
+countries:    
+
+File: 1508_1300.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1508_1301.txt
+exact answer: no
+countries:    
+
+File: 1508_1302.txt
+exact answer: no
+countries:    
+
+File: 1508_1303.txt
+exact answer: no
+countries:    
+
+File: 1508_1304.txt
+exact answer: no
+countries:    
+
+File: 1509_1305.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1509_1306.txt
+exact answer: no
+countries:    
+
+File: 1510_1307.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1520_1308.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1521_1309.txt
+bad response
+
+File: 1521_1310.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1521_1311.txt
+exact answer: no
+countries:    Pakistan,Australia,Afghanistan
+
+File: 1521_1312.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1524_2065.txt
+exact answer: no
+countries:    
+
+File: 1525_3298.txt
+exact answer: no
+countries:    Congo
+
+File: 1526_1313.txt
+decode error
+
+File: 1528_2612.txt
+decode error
+
+File: 1555_2067.txt
+decode error
+
+File: 1567_2068.txt
+decode error
+
+File: 1568_2989.txt
+decode error
+
+File: 1578_2369.txt
+exact answer: Cameroon
+countries:    Liberia,Cameroon
+
+File: 1579_2070.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1579_2071.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 1581_1314.txt
+exact answer: Pakistan
+countries:    
+
+File: 1582_1315.txt
+exact answer: Pakistan
+countries:    
+
+File: 1585_1316.txt
+exact answer: Pakistan
+countries:    
+
+File: 1586_1317.txt
+exact answer: Pakistan
+countries:    
+
+File: 1588_2072.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 15_1615.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1610_1319.txt
+exact answer: Pakistan
+countries:    
+
+File: 1614_1320.txt
+exact answer: Pakistan
+countries:    
+
+File: 1616_2073.txt
+exact answer: Afghanistan
+countries:    
+
+File: 1623_1321.txt
+exact answer: Pakistan
+countries:    
+
+File: 1624_2074.txt
+exact answer: Afghanistan
+countries:    Afghanistan
+
+File: 1628_2075.txt
+decode error
+
+File: 1628_2076.txt
+exact answer: no
+countries:    Syria
+
+File: 1630_1322.txt
+exact answer: Afghanistan
+countries:    
+
+File: 1641_1323.txt
+exact answer: Pakistan
+countries:    
+
+File: 1642_3303.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 1645_2077.txt
+decode error
+
+File: 1645_2078.txt
+decode error
+
+File: 1646_2365.txt
+exact answer: no
+countries:    Cambodia
+
+File: 1648_1324.txt
+exact answer: Pakistan
+countries:    
+
+File: 1648_1325.txt
+decode error
+
+File: 1654_2079.txt
+exact answer: Afghanistan
+countries:    
+
+File: 1658_1326.txt
+exact answer: Pakistan
+countries:    
+
+File: 1660_1327.txt
+exact answer: Pakistan
+countries:    
+
+File: 1662_2230.txt
+exact answer: Cochabamba Location
+countries:    Spain,Bolivia
+
+File: 1674_2099.txt
+exact answer: Bolivia
+countries:    
+
+File: 1676_1393.txt
+exact answer: Bolivia
+countries:    
+
+File: 1677_1394.txt
+exact answer: Bolivia
+countries:    
+
+File: 1683_1395.txt
+exact answer: Pakistan
+countries:    
+
+File: 1695_3304.txt
+decode error
+
+File: 1695_3305.txt
+decode error
+
+File: 1695_3306.txt
+exact answer: no
+countries:    
+
+File: 1696_3307.txt
+decode error
+
+File: 1701_3308.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 1705_2100.txt
+exact answer: no
+countries:    
+
+File: 1705_2101.txt
+exact answer: no
+countries:    
+
+File: 1705_2102.txt
+exact answer: no
+countries:    
+
+File: 1705_2103.txt
+exact answer: no
+countries:    
+
+File: 1705_2104.txt
+exact answer: no
+countries:    
+
+File: 1705_2105.txt
+exact answer: no
+countries:    
+
+File: 1705_2106.txt
+exact answer: no
+countries:    
+
+File: 1705_2107.txt
+exact answer: no
+countries:    
+
+File: 1705_2108.txt
+exact answer: no
+countries:    
+
+File: 1705_2109.txt
+exact answer: no
+countries:    
+
+File: 1705_2110.txt
+exact answer: no
+countries:    
+
+File: 1705_2111.txt
+exact answer: no
+countries:    
+
+File: 1707_3309.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 1712_1396.txt
+exact answer: no
+countries:    
+
+File: 1712_1397.txt
+exact answer: no
+countries:    
+
+File: 1714_3066.txt
+exact answer: no
+countries:    
+
+File: 1714_3067.txt
+exact answer: no
+countries:    
+
+File: 1714_3069.txt
+exact answer: no
+countries:    
+
+File: 1714_3070.txt
+decode error
+
+File: 1715_2182.txt
+exact answer: no
+countries:    
+
+File: 1722_3310.txt
+exact answer: no
+countries:    
+
+File: 1723_2112.txt
+exact answer: no
+countries:    
+
+File: 1727_2113.txt
+exact answer: Afghanistan
+countries:    
+
+File: 1731_2183.txt
+exact answer: no
+countries:    
+
+File: 1742_2184.txt
+exact answer: no
+countries:    
+
+File: 1821_3311.txt
+exact answer: no
+countries:    
+
+File: 1825_1398.txt
+bad response
+
+File: 1826_1399.txt
+decode error
+
+File: 1830_2400.txt
+decode error
+
+File: 1838_3312.txt
+exact answer: no
+countries:    
+
+File: 1839_2555.txt
+exact answer: no
+countries:    
+
+File: 1840_3313.txt
+exact answer: no
+countries:    
+
+File: 1840_3314.txt
+exact answer: no
+countries:    
+
+File: 1841_3315.txt
+decode error
+
+File: 1842_3316.txt
+exact answer: no
+countries:    
+
+File: 1853_2114.txt
+exact answer: no
+countries:    
+
+File: 1859_3317.txt
+exact answer: no
+countries:    
+
+File: 1860_3318.txt
+exact answer: no
+countries:    
+
+File: 1864_1400.txt
+exact answer: Pakistan
+countries:    Pakistan,Norway
+
+File: 1865_2115.txt
+exact answer: Afghanistan
+countries:    Afghanistan
+
+File: 1868_2185.txt
+decode error
+
+File: 1870_2116.txt
+exact answer: no
+countries:    
+
+File: 1875_2117.txt
+exact answer: Afghanistan
+countries:    
+
+File: 1882_1401.txt
+exact answer: Pakistan
+countries:    
+
+File: 1908_2118.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1908_2119.txt
+decode error
+
+File: 1908_2120.txt
+decode error
+
+File: 1912_2224.txt
+decode error
+
+File: 1913_1402.txt
+decode error
+
+File: 1931_1784.txt
+decode error
+
+File: 1938_1404.txt
+exact answer: no
+countries:    
+
+File: 1938_1405.txt
+exact answer: no
+countries:    
+
+File: 1938_1406.txt
+exact answer: no
+countries:    
+
+File: 1938_1407.txt
+exact answer: no
+countries:    
+
+File: 1938_1408.txt
+exact answer: no
+countries:    
+
+File: 1938_1409.txt
+decode error
+
+File: 1938_1410.txt
+decode error
+
+File: 1938_1411.txt
+exact answer: no
+countries:    
+
+File: 1949_2556.txt
+decode error
+
+File: 1950_1413.txt
+exact answer: no
+countries:    
+
+File: 1950_1414.txt
+decode error
+
+File: 1950_1415.txt
+exact answer: no
+countries:    
+
+File: 1950_1416.txt
+exact answer: no
+countries:    
+
+File: 1951_1417.txt
+exact answer: no
+countries:    Pakistan
+
+File: 1956_1418.txt
+decode error
+
+File: 1964_2121.txt
+decode error
+
+File: 1967_2241.txt
+decode error
+
+File: 1974_2122.txt
+decode error
+
+File: 1976_1419.txt
+exact answer: Pakistan
+countries:    
+
+File: 1977_2123.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 1978_1420.txt
+exact answer: Pakistan
+countries:    Pakistan
+
+File: 1979_1421.txt
+exact answer: Pakistan
+countries:    
+
+File: 1990_1422.txt
+decode error
+
+File: 1990_1423.txt
+decode error
+
+File: 1991_1424.txt
+exact answer: Pakistan
+countries:    
+
+File: 1992_1425.txt
+exact answer: Pakistan
+countries:    
+
+File: 1_1592.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1_1593.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1_1594.txt
+bad response
+
+File: 1_1595.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 1_68.txt
+exact answer: no
+countries:    Pakistan,France,Afghanistan
+
+File: 201_1665.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 201_1666.txt
+exact answer: no
+countries:    Iran,Afghanistan
+
+File: 201_1667.txt
+exact answer: no
+countries:    
+
+File: 2021_1426.txt
+exact answer: Pakistan
+countries:    
+
+File: 2024_2124.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 2025_2125.txt
+decode error
+
+File: 2025_2126.txt
+decode error
+
+File: 2026_3355.txt
+exact answer: no
+countries:    Congo
+
+File: 2031_1427.txt
+exact answer: Pakistan
+countries:    Palestine,Pakistan
+
+File: 2032_1428.txt
+exact answer: Pakistan
+countries:    
+
+File: 2035_2366.txt
+exact answer: no
+countries:    Cambodia
+
+File: 2041_3356.txt
+decode error
+
+File: 2050_1429.txt
+exact answer: Pakistan
+countries:    Pakistan
+
+File: 2051_1430.txt
+exact answer: Pakistan
+countries:    
+
+File: 2053_1431.txt
+exact answer: Pakistan
+countries:    
+
+File: 2076_1432.txt
+bad response
+
+File: 2076_1433.txt
+exact answer: no
+countries:    
+
+File: 2076_1434.txt
+exact answer: no
+countries:    
+
+File: 2076_1435.txt
+exact answer: no
+countries:    
+
+File: 2077_1436.txt
+exact answer: Pakistan
+countries:    Pakistan
+
+File: 2078_1437.txt
+exact answer: Pakistan
+countries:    
+
+File: 2080_2128.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 2083_1452.txt
+exact answer: Pakistan
+countries:    
+
+File: 2084_1453.txt
+exact answer: Pakistan
+countries:    Pakistan
+
+File: 2085_1454.txt
+exact answer: no
+countries:    
+
+File: 2090_1455.txt
+exact answer: Pakistan
+countries:    
+
+File: 2091_1456.txt
+exact answer: Pakistan
+countries:    
+
+File: 2092_1457.txt
+exact answer: no
+countries:    
+
+File: 2092_1458.txt
+exact answer: no
+countries:    
+
+File: 2092_1459.txt
+decode error
+
+File: 2092_1460.txt
+exact answer: no
+countries:    
+
+File: 2092_1461.txt
+exact answer: no
+countries:    
+
+File: 2092_1462.txt
+exact answer: no
+countries:    
+
+File: 2092_1463.txt
+exact answer: no
+countries:    
+
+File: 2092_1464.txt
+exact answer: no
+countries:    
+
+File: 2092_1465.txt
+exact answer: no
+countries:    Pakistan,Israel
+
+File: 2093_1466.txt
+exact answer: no
+countries:    
+
+File: 2093_1467.txt
+exact answer: no
+countries:    
+
+File: 2094_1468.txt
+exact answer: no
+countries:    
+
+File: 2095_1469.txt
+exact answer: no
+countries:    
+
+File: 2095_1470.txt
+decode error
+
+File: 2096_1471.txt
+exact answer: no
+countries:    
+
+File: 2096_1472.txt
+decode error
+
+File: 2096_1473.txt
+exact answer: no
+countries:    
+
+File: 2097_2129.txt
+decode error
+
+File: 2098_1474.txt
+exact answer: no
+countries:    
+
+File: 20_1616.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 2100_1475.txt
+exact answer: no
+countries:    
+
+File: 2100_1476.txt
+exact answer: no
+countries:    
+
+File: 2101_1477.txt
+exact answer: no
+countries:    
+
+File: 2101_1478.txt
+exact answer: no
+countries:    
+
+File: 2102_1479.txt
+exact answer: no
+countries:    
+
+File: 2104_1480.txt
+exact answer: no
+countries:    
+
+File: 2105_1481.txt
+exact answer: no
+countries:    
+
+File: 2145_3358.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 2159_2614.txt
+exact answer: Haiti
+countries:    Haiti
+
+File: 2163_2131.txt
+exact answer: Afghanistan
+countries:    Afghanistan
+
+File: 2166_2990.txt
+exact answer: Colombia
+countries:    
+
+File: 2172_3360.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 2172_3361.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 2173_3362.txt
+exact answer: Democratic Republic of the Congo
+countries:    
+
+File: 2182_2231.txt
+exact answer: Bolivia
+countries:    Bolivia
+
+File: 21_1618.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 21_1619.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 21_1620.txt
+decode error
+
+File: 228_2308.txt
+bad response
+
+File: 228_2309.txt
+bad response
+
+File: 229_2310.txt
+decode error
+
+File: 229_2311.txt
+decode error
+
+File: 229_2312.txt
+bad response
+
+File: 2304_2133.txt
+exact answer: Afghanistan
+countries:    
+
+File: 230_2313.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 230_2314.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 230_2315.txt
+bad response
+
+File: 230_2316.txt
+exact answer: no
+countries:    
+
+File: 230_2317.txt
+decode error
+
+File: 230_2318.txt
+exact answer: no
+countries:    
+
+File: 230_2319.txt
+exact answer: no
+countries:    
+
+File: 230_2320.txt
+exact answer: no
+countries:    Sudan
+
+File: 230_2321.txt
+exact answer: no
+countries:    Sudan
+
+File: 230_2322.txt
+exact answer: no
+countries:    Sudan
+
+File: 230_2323.txt
+exact answer: no
+countries:    Sudan,Kenya,Israel,Belgium
+
+File: 230_2324.txt
+exact answer: no
+countries:    
+
+File: 230_2325.txt
+exact answer: no
+countries:    Sudan,Kenya,Israel,Belgium
+
+File: 230_2326.txt
+exact answer: no
+countries:    Sudan,Mexico,Italy,Guinea,Chad,Brazil
+
+File: 230_2327.txt
+exact answer: no
+countries:    Sudan,Russia,China,Chad
+
+File: 230_2328.txt
+exact answer: no
+countries:    Sudan
+
+File: 230_2329.txt
+exact answer: no
+countries:    Sudan,Italy
+
+File: 230_2330.txt
+exact answer: no
+countries:    Sudan
+
+File: 230_2331.txt
+exact answer: no
+countries:    Sudan
+
+File: 230_2332.txt
+exact answer: no
+countries:    
+
+File: 230_2333.txt
+exact answer: no
+countries:    
+
+File: 230_2334.txt
+exact answer: no
+countries:    Sudan,Italy
+
+File: 230_2335.txt
+exact answer: no
+countries:    Sudan,Italy,France,Canada
+
+File: 234_2212.txt
+exact answer: no
+countries:    Sudan,Canada
+
+File: 234_2213.txt
+exact answer: no
+countries:    Sudan,Canada
+
+File: 239_1120.txt
+exact answer: no
+countries:    
+
+File: 239_1121.txt
+exact answer: no
+countries:    
+
+File: 239_1123.txt
+exact answer: no
+countries:    Azerbaijan
+
+File: 239_1124.txt
+exact answer: no
+countries:    
+
+File: 245_1668.txt
+exact answer: no
+countries:    
+
+File: 245_1669.txt
+exact answer: no
+countries:    Bangladesh
+
+File: 250_2984.txt
+exact answer: no
+countries:    Colombia
+
+File: 251_1012.txt
+exact answer: no
+countries:    Pakistan
+
+File: 251_1013.txt
+exact answer: no
+countries:    Pakistan
+
+File: 253_1670.txt
+exact answer: no
+countries:    
+
+File: 258_1015.txt
+exact answer: no
+countries:    
+
+File: 258_1016.txt
+exact answer: no
+countries:    Pakistan
+
+File: 263_1671.txt
+exact answer: no
+countries:    
+
+File: 263_1672.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 263_1673.txt
+exact answer: no
+countries:    
+
+File: 263_1674.txt
+exact answer: no
+countries:    
+
+File: 268_1675.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 269_1676.txt
+exact answer: no
+countries:    
+
+File: 269_1677.txt
+exact answer: no
+countries:    
+
+File: 271_1075.txt
+exact answer: no
+countries:    
+
+File: 271_1076.txt
+exact answer: no
+countries:    Pakistan
+
+File: 271_1077.txt
+exact answer: no
+countries:    Pakistan
+
+File: 271_1078.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1079.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 271_1080.txt
+exact answer: no
+countries:    Sudan,Somalia,Pakistan,Afghanistan
+
+File: 271_1081.txt
+exact answer: no
+countries:    Pakistan
+
+File: 271_1082.txt
+exact answer: no
+countries:    Pakistan,India,Afghanistan
+
+File: 271_1083.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1084.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1085.txt
+exact answer: no
+countries:    
+
+File: 271_1086.txt
+exact answer: no
+countries:    
+
+File: 271_1087.txt
+exact answer: no
+countries:    
+
+File: 271_1088.txt
+exact answer: no
+countries:    
+
+File: 271_1089.txt
+exact answer: no
+countries:    
+
+File: 271_1090.txt
+exact answer: no
+countries:    
+
+File: 271_1091.txt
+exact answer: no
+countries:    
+
+File: 271_1092.txt
+exact answer: no
+countries:    Pakistan
+
+File: 271_1093.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 271_1094.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1095.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1096.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 271_1097.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1098.txt
+exact answer: no
+countries:    Pakistan
+
+File: 271_1099.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 271_1100.txt
+decode error
+
+File: 271_1102.txt
+decode error
+
+File: 274_1106.txt
+exact answer: no
+countries:    
+
+File: 274_1107.txt
+exact answer: no
+countries:    Pakistan
+
+File: 278_3000.txt
+exact answer: no
+countries:    
+
+File: 280_1108.txt
+exact answer: no
+countries:    Pakistan
+
+File: 283_1681.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 284_2186.txt
+exact answer: no
+countries:    
+
+File: 285_1683.txt
+exact answer: no
+countries:    
+
+File: 286_1684.txt
+exact answer: no
+countries:    
+
+File: 287_1685.txt
+exact answer: no
+countries:    
+
+File: 289_2420.txt
+exact answer: no
+countries:    
+
+File: 290_1109.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 290_1110.txt
+exact answer: no
+countries:    
+
+File: 291_2421.txt
+exact answer: no
+countries:    
+
+File: 291_2422.txt
+exact answer: no
+countries:    
+
+File: 3001_2161.txt
+exact answer: no
+countries:    
+
+File: 3001_2162.txt
+exact answer: no
+countries:    
+
+File: 3001_2163.txt
+exact answer: no
+countries:    
+
+File: 3001_2164.txt
+exact answer: no
+countries:    
+
+File: 3001_2165.txt
+exact answer: no
+countries:    
+
+File: 3001_2166.txt
+exact answer: no
+countries:    
+
+File: 3001_2167.txt
+exact answer: no
+countries:    
+
+File: 3001_2168.txt
+exact answer: no
+countries:    
+
+File: 3003_2175.txt
+exact answer: no
+countries:    
+
+File: 3036_2557.txt
+exact answer: no
+countries:    
+
+File: 3036_2558.txt
+exact answer: no
+countries:    
+
+File: 3047_2134.txt
+exact answer: no
+countries:    
+
+File: 3048_2135.txt
+exact answer: no
+countries:    
+
+File: 3048_2136.txt
+exact answer: no
+countries:    
+
+File: 3049_2138.txt
+exact answer: no
+countries:    
+
+File: 304_2615.txt
+exact answer: no
+countries:    
+
+File: 304_2616.txt
+decode error
+
+File: 319_2985.txt
+exact answer: no
+countries:    
+
+File: 328_1111.txt
+exact answer: no
+countries:    Serbia,Philippines,Pakistan
+
+File: 328_1112.txt
+exact answer: no
+countries:    Philippines,Pakistan
+
+File: 328_1113.txt
+exact answer: no
+countries:    Pakistan,Iraq,India,Afghanistan
+
+File: 328_1115.txt
+decode error
+
+File: 328_1116.txt
+exact answer: no
+countries:    
+
+File: 328_1117.txt
+exact answer: no
+countries:    
+
+File: 331_1118.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 332_2371.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 336_1686.txt
+exact answer: no
+countries:    
+
+File: 340_1687.txt
+exact answer: no
+countries:    Uzbekistan,Turkmenistan,Afghanistan
+
+File: 340_1688.txt
+exact answer: no
+countries:    Uzbekistan,Turkmenistan,Afghanistan
+
+File: 340_1689.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 340_1690.txt
+exact answer: no
+countries:    Pakistan,Iran,Afghanistan
+
+File: 344_1494.txt
+exact answer: no
+countries:    
+
+File: 347_1692.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 348_1366.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 348_1367.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 348_1368.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 348_1369.txt
+exact answer: no
+countries:    
+
+File: 353_1694.txt
+exact answer: no
+countries:    
+
+File: 353_1695.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 354_1696.txt
+exact answer: no
+countries:    
+
+File: 354_1697.txt
+exact answer: no
+countries:    Somalia,Kenya
+
+File: 356_1698.txt
+exact answer: no
+countries:    
+
+File: 364_1699.txt
+exact answer: no
+countries:    
+
+File: 365_1700.txt
+exact answer: no
+countries:    
+
+File: 36_1638.txt
+decode error
+
+File: 36_1639.txt
+decode error
+
+File: 36_1640.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 36_1641.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 36_1642.txt
+bad response
+
+File: 36_1643.txt
+exact answer: no
+countries:    France,Bangladesh,Afghanistan
+
+File: 373_3001.txt
+exact answer: no
+countries:    France,Congo
+
+File: 376_1701.txt
+exact answer: no
+countries:    Uzbekistan,Pakistan,Moldova,Italy,Cyprus,Britain,Afghanistan
+
+File: 377_1139.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 377_1140.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 379_2336.txt
+decode error
+
+File: 379_2337.txt
+exact answer: no
+countries:    Sudan,Libya,France,China
+
+File: 387_2461.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 387_2462.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 387_2463.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 387_2464.txt
+exact answer: no
+countries:    
+
+File: 387_2465.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 387_2466.txt
+exact answer: no
+countries:    Greece,Chad
+
+File: 387_2467.txt
+exact answer: no
+countries:    Sudan,France,Chad
+
+File: 387_2468.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 387_2469.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 387_2470.txt
+decode error
+
+File: 387_2471.txt
+decode error
+
+File: 387_2472.txt
+decode error
+
+File: 395_1447.txt
+exact answer: no
+countries:    Yemen
+
+File: 395_1448.txt
+exact answer: no
+countries:    Yemen
+
+File: 395_1449.txt
+exact answer: no
+countries:    
+
+File: 397_1551.txt
+exact answer: no
+countries:    Russia
+
+File: 399_125.txt
+exact answer: no
+countries:    
+
+File: 39_2243.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 39_2413.txt
+decode error
+
+File: 3_1005.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 3_1006.txt
+exact answer: no
+countries:    Pakistan,India,Afghanistan
+
+File: 3_1007.txt
+exact answer: no
+countries:    
+
+File: 3_1008.txt
+decode error
+
+File: 3_1009.txt
+decode error
+
+File: 3_1010.txt
+decode error
+
+File: 3_1011.txt
+decode error
+
+File: 4001_2559.txt
+exact answer: no
+countries:    
+
+File: 4001_2560.txt
+exact answer: no
+countries:    
+
+File: 4003_2561.txt
+exact answer: no
+countries:    
+
+File: 4004_2562.txt
+exact answer: no
+countries:    
+
+File: 4004_2564.txt
+exact answer: no
+countries:    France,Chad
+
+File: 4005_2565.txt
+exact answer: no
+countries:    
+
+File: 4005_2566.txt
+exact answer: no
+countries:    
+
+File: 4006_2567.txt
+exact answer: no
+countries:    Chad
+
+File: 4006_2568.txt
+exact answer: no
+countries:    
+
+File: 4006_2569.txt
+exact answer: no
+countries:    
+
+File: 4006_2570.txt
+exact answer: no
+countries:    
+
+File: 4006_2571.txt
+exact answer: no
+countries:    
+
+File: 4006_2572.txt
+exact answer: no
+countries:    
+
+File: 4006_2573.txt
+exact answer: no
+countries:    
+
+File: 4007_2574.txt
+decode error
+
+File: 4010_2575.txt
+exact answer: no
+countries:    
+
+File: 4012_2771.txt
+exact answer: no
+countries:    
+
+File: 4013_2772.txt
+exact answer: no
+countries:    
+
+File: 4014_2773.txt
+exact answer: no
+countries:    
+
+File: 4014_2774.txt
+exact answer: no
+countries:    
+
+File: 4017_2775.txt
+exact answer: no
+countries:    
+
+File: 4017_2776.txt
+exact answer: no
+countries:    
+
+File: 4017_2777.txt
+exact answer: no
+countries:    
+
+File: 4017_2778.txt
+exact answer: no
+countries:    
+
+File: 4018_2779.txt
+exact answer: no
+countries:    
+
+File: 4018_2780.txt
+exact answer: no
+countries:    
+
+File: 4019_2781.txt
+exact answer: no
+countries:    
+
+File: 4020_2782.txt
+exact answer: no
+countries:    
+
+File: 4022_2783.txt
+exact answer: no
+countries:    
+
+File: 4022_2784.txt
+exact answer: no
+countries:    
+
+File: 4022_2785.txt
+exact answer: no
+countries:    
+
+File: 4023_2786.txt
+exact answer: no
+countries:    
+
+File: 4023_2787.txt
+exact answer: no
+countries:    
+
+File: 4023_2788.txt
+exact answer: no
+countries:    
+
+File: 4023_2789.txt
+exact answer: no
+countries:    
+
+File: 4024_2790.txt
+exact answer: no
+countries:    
+
+File: 4026_2791.txt
+exact answer: no
+countries:    
+
+File: 4027_2792.txt
+exact answer: no
+countries:    
+
+File: 4030_2793.txt
+exact answer: no
+countries:    
+
+File: 4033_2794.txt
+exact answer: no
+countries:    
+
+File: 4037_2598.txt
+exact answer: no
+countries:    
+
+File: 4037_2599.txt
+exact answer: no
+countries:    
+
+File: 4037_2600.txt
+exact answer: no
+countries:    
+
+File: 4037_2601.txt
+exact answer: no
+countries:    
+
+File: 4038_2795.txt
+exact answer: no
+countries:    
+
+File: 4038_2796.txt
+exact answer: no
+countries:    
+
+File: 4038_2797.txt
+exact answer: no
+countries:    
+
+File: 4038_2798.txt
+exact answer: no
+countries:    
+
+File: 4039_2799.txt
+exact answer: no
+countries:    
+
+File: 4041_2800.txt
+exact answer: no
+countries:    
+
+File: 4041_2801.txt
+exact answer: no
+countries:    
+
+File: 4041_2802.txt
+exact answer: no
+countries:    
+
+File: 4041_2803.txt
+exact answer: no
+countries:    
+
+File: 4045_2804.txt
+exact answer: no
+countries:    
+
+File: 4046_2805.txt
+exact answer: no
+countries:    
+
+File: 4047_2806.txt
+exact answer: no
+countries:    
+
+File: 404_1488.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 404_1489.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 404_1490.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 4051_2807.txt
+exact answer: no
+countries:    
+
+File: 4051_2808.txt
+exact answer: no
+countries:    
+
+File: 4052_2809.txt
+exact answer: no
+countries:    
+
+File: 4054_2810.txt
+exact answer: no
+countries:    
+
+File: 4055_2811.txt
+exact answer: no
+countries:    
+
+File: 4055_2812.txt
+exact answer: no
+countries:    
+
+File: 4057_2813.txt
+exact answer: no
+countries:    
+
+File: 4060_2814.txt
+exact answer: no
+countries:    
+
+File: 4060_2815.txt
+exact answer: no
+countries:    
+
+File: 4061_2816.txt
+exact answer: no
+countries:    
+
+File: 4062_2817.txt
+exact answer: no
+countries:    
+
+File: 4065_2818.txt
+exact answer: no
+countries:    
+
+File: 4065_2819.txt
+exact answer: no
+countries:    
+
+File: 4068_2820.txt
+exact answer: no
+countries:    
+
+File: 4071_2862.txt
+exact answer: no
+countries:    
+
+File: 4072_2863.txt
+exact answer: no
+countries:    
+
+File: 4072_2864.txt
+exact answer: no
+countries:    
+
+File: 4072_2865.txt
+exact answer: no
+countries:    
+
+File: 4072_2866.txt
+exact answer: no
+countries:    
+
+File: 4073_2867.txt
+exact answer: no
+countries:    
+
+File: 4073_2868.txt
+exact answer: no
+countries:    Chad,Cameroon
+
+File: 4074_2869.txt
+exact answer: no
+countries:    
+
+File: 4075_2870.txt
+decode error
+
+File: 4075_2871.txt
+exact answer: no
+countries:    
+
+File: 4075_2872.txt
+exact answer: no
+countries:    
+
+File: 4075_2873.txt
+exact answer: no
+countries:    
+
+File: 4075_2874.txt
+exact answer: no
+countries:    
+
+File: 4077_1552.txt
+exact answer: no
+countries:    
+
+File: 4077_1553.txt
+exact answer: no
+countries:    
+
+File: 4077_1554.txt
+exact answer: no
+countries:    
+
+File: 4077_1555.txt
+exact answer: no
+countries:    
+
+File: 4077_1556.txt
+exact answer: no
+countries:    Switzerland,Netherlands,Canada
+
+File: 4077_1557.txt
+exact answer: no
+countries:    
+
+File: 4078_1572.txt
+exact answer: no
+countries:    
+
+File: 4078_1573.txt
+decode error
+
+File: 4079_1574.txt
+decode error
+
+File: 4079_1575.txt
+decode error
+
+File: 407_1702.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 407_1703.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 4080_1576.txt
+exact answer: no
+countries:    
+
+File: 4082_1577.txt
+exact answer: no
+countries:    
+
+File: 4082_1578.txt
+exact answer: no
+countries:    
+
+File: 4082_1579.txt
+exact answer: no
+countries:    
+
+File: 4082_1580.txt
+exact answer: no
+countries:    
+
+File: 4082_1581.txt
+exact answer: no
+countries:    
+
+File: 4086_1582.txt
+exact answer: no
+countries:    
+
+File: 4086_1583.txt
+exact answer: no
+countries:    
+
+File: 4086_1584.txt
+exact answer: no
+countries:    Russia
+
+File: 4087_1585.txt
+exact answer: no
+countries:    
+
+File: 4087_1586.txt
+decode error
+
+File: 4087_1587.txt
+exact answer: no
+countries:    
+
+File: 4088_1588.txt
+exact answer: no
+countries:    
+
+File: 4089_1589.txt
+exact answer: no
+countries:    
+
+File: 408_1704.txt
+exact answer: no
+countries:    
+
+File: 4090_2401.txt
+exact answer: no
+countries:    
+
+File: 4092_2402.txt
+exact answer: no
+countries:    
+
+File: 4093_2403.txt
+exact answer: no
+countries:    
+
+File: 4096_2404.txt
+exact answer: no
+countries:    
+
+File: 4097_2405.txt
+exact answer: no
+countries:    
+
+File: 4098_2406.txt
+exact answer: no
+countries:    
+
+File: 4098_2407.txt
+exact answer: no
+countries:    
+
+File: 4099_2408.txt
+exact answer: no
+countries:    
+
+File: 4099_2409.txt
+exact answer: no
+countries:    
+
+File: 40_2414.txt
+exact answer: no
+countries:    
+
+File: 410_1705.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 410_1706.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 410_1707.txt
+exact answer: no
+countries:    Canada,Afghanistan
+
+File: 410_1708.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 410_1709.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 4118_2997.txt
+exact answer: no
+countries:    
+
+File: 4119_2995.txt
+exact answer: no
+countries:    
+
+File: 4119_2996.txt
+exact answer: no
+countries:    
+
+File: 411_1710.txt
+exact answer: no
+countries:    
+
+File: 411_1711.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 4120_2998.txt
+exact answer: no
+countries:    
+
+File: 4120_2999.txt
+exact answer: no
+countries:    
+
+File: 4121_2991.txt
+exact answer: no
+countries:    
+
+File: 4121_2992.txt
+exact answer: no
+countries:    
+
+File: 4122_2993.txt
+exact answer: no
+countries:    
+
+File: 4122_2994.txt
+exact answer: no
+countries:    
+
+File: 4123_2983.txt
+exact answer: no
+countries:    
+
+File: 4124_2370.txt
+exact answer: no
+countries:    
+
+File: 4125_3363.txt
+exact answer: no
+countries:    
+
+File: 4126_3364.txt
+exact answer: no
+countries:    
+
+File: 4126_3365.txt
+exact answer: no
+countries:    
+
+File: 4128_3366.txt
+exact answer: no
+countries:    
+
+File: 4129_3367.txt
+exact answer: no
+countries:    
+
+File: 412_1712.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 412_1713.txt
+decode error
+
+File: 412_1715.txt
+decode error
+
+File: 4130_3368.txt
+exact answer: no
+countries:    
+
+File: 4131_3369.txt
+exact answer: no
+countries:    
+
+File: 4132_3370.txt
+exact answer: no
+countries:    
+
+File: 4132_3371.txt
+exact answer: no
+countries:    
+
+File: 4135_3372.txt
+exact answer: no
+countries:    
+
+File: 4138_304.txt
+exact answer: no
+countries:    
+
+File: 4138_305.txt
+exact answer: no
+countries:    
+
+File: 4139_3373.txt
+exact answer: no
+countries:    
+
+File: 4141_3374.txt
+exact answer: no
+countries:    
+
+File: 4143_3375.txt
+exact answer: no
+countries:    
+
+File: 4144_3376.txt
+exact answer: no
+countries:    
+
+File: 4148_3377.txt
+exact answer: no
+countries:    
+
+File: 4149_3378.txt
+exact answer: no
+countries:    
+
+File: 4149_3379.txt
+exact answer: no
+countries:    
+
+File: 4151_3380.txt
+exact answer: no
+countries:    
+
+File: 4152_3381.txt
+exact answer: no
+countries:    
+
+File: 4152_3382.txt
+exact answer: no
+countries:    
+
+File: 4152_3383.txt
+exact answer: no
+countries:    
+
+File: 415_1728.txt
+exact answer: no
+countries:    
+
+File: 4164_3384.txt
+exact answer: no
+countries:    
+
+File: 4166_3385.txt
+exact answer: no
+countries:    
+
+File: 4168_3386.txt
+exact answer: no
+countries:    
+
+File: 4168_3387.txt
+exact answer: no
+countries:    
+
+File: 4169_3388.txt
+exact answer: no
+countries:    
+
+File: 4170_3389.txt
+exact answer: no
+countries:    
+
+File: 4172_3390.txt
+exact answer: no
+countries:    
+
+File: 4173_3391.txt
+exact answer: no
+countries:    
+
+File: 4173_3392.txt
+exact answer: no
+countries:    
+
+File: 4174_3393.txt
+exact answer: no
+countries:    
+
+File: 4174_3394.txt
+exact answer: no
+countries:    
+
+File: 4179_3404.txt
+exact answer: no
+countries:    
+
+File: 4180_3405.txt
+exact answer: no
+countries:    
+
+File: 4180_3406.txt
+exact answer: no
+countries:    
+
+File: 4181_3407.txt
+exact answer: no
+countries:    
+
+File: 4181_3408.txt
+exact answer: no
+countries:    
+
+File: 4181_3409.txt
+exact answer: no
+countries:    
+
+File: 4181_3410.txt
+exact answer: no
+countries:    
+
+File: 4181_3411.txt
+exact answer: no
+countries:    
+
+File: 4181_3412.txt
+exact answer: no
+countries:    
+
+File: 4182_3413.txt
+exact answer: no
+countries:    
+
+File: 4183_3414.txt
+exact answer: no
+countries:    
+
+File: 4184_3415.txt
+exact answer: no
+countries:    
+
+File: 4185_3416.txt
+exact answer: no
+countries:    
+
+File: 4187_3417.txt
+exact answer: no
+countries:    
+
+File: 4188_3418.txt
+exact answer: no
+countries:    
+
+File: 4189_3419.txt
+exact answer: no
+countries:    
+
+File: 418_1730.txt
+exact answer: no
+countries:    
+
+File: 4190_3420.txt
+exact answer: no
+countries:    
+
+File: 4190_3421.txt
+exact answer: no
+countries:    
+
+File: 4191_3422.txt
+exact answer: no
+countries:    
+
+File: 4193_3423.txt
+exact answer: no
+countries:    
+
+File: 4195_3424.txt
+exact answer: no
+countries:    
+
+File: 4199_3425.txt
+exact answer: no
+countries:    
+
+File: 419_1731.txt
+exact answer: no
+countries:    
+
+File: 41_2415.txt
+exact answer: no
+countries:    Sudan,Chad,Britain
+
+File: 41_2416.txt
+exact answer: no
+countries:    
+
+File: 41_2417.txt
+exact answer: no
+countries:    
+
+File: 4202_3426.txt
+exact answer: no
+countries:    
+
+File: 4202_3427.txt
+exact answer: no
+countries:    
+
+File: 4202_3428.txt
+exact answer: no
+countries:    
+
+File: 4202_3429.txt
+exact answer: no
+countries:    
+
+File: 4204_3430.txt
+exact answer: no
+countries:    
+
+File: 4205_3431.txt
+exact answer: no
+countries:    
+
+File: 4205_3432.txt
+exact answer: no
+countries:    
+
+File: 4205_3433.txt
+exact answer: no
+countries:    
+
+File: 4208_3434.txt
+exact answer: no
+countries:    
+
+File: 4209_3435.txt
+exact answer: no
+countries:    
+
+File: 420_1732.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 4211_3436.txt
+exact answer: no
+countries:    
+
+File: 4212_3437.txt
+exact answer: no
+countries:    
+
+File: 4212_3438.txt
+exact answer: no
+countries:    
+
+File: 4214_3439.txt
+exact answer: no
+countries:    
+
+File: 4215_3440.txt
+exact answer: no
+countries:    
+
+File: 4215_3441.txt
+exact answer: no
+countries:    
+
+File: 4217_3583.txt
+exact answer: no
+countries:    
+
+File: 421_3002.txt
+exact answer: no
+countries:    
+
+File: 4220_3584.txt
+exact answer: no
+countries:    
+
+File: 4223_3585.txt
+exact answer: no
+countries:    
+
+File: 4224_3586.txt
+exact answer: no
+countries:    
+
+File: 4225_3587.txt
+exact answer: no
+countries:    
+
+File: 4226_3588.txt
+exact answer: no
+countries:    
+
+File: 4227_3589.txt
+exact answer: no
+countries:    
+
+File: 4228_3590.txt
+exact answer: no
+countries:    
+
+File: 4229_3591.txt
+exact answer: no
+countries:    
+
+File: 422_2340.txt
+exact answer: no
+countries:    Sudan,France
+
+File: 4236_3592.txt
+exact answer: no
+countries:    
+
+File: 4239_3593.txt
+exact answer: no
+countries:    
+
+File: 4241_3594.txt
+exact answer: no
+countries:    
+
+File: 4241_3595.txt
+exact answer: no
+countries:    
+
+File: 4242_3596.txt
+exact answer: no
+countries:    
+
+File: 4261_3597.txt
+exact answer: no
+countries:    
+
+File: 4262_3598.txt
+exact answer: no
+countries:    
+
+File: 427_1733.txt
+exact answer:
+countries:    
+
+File: 427_1734.txt
+exact answer: no
+countries:    
+
+File: 429_1735.txt
+exact answer: no
+countries:    
+
+File: 432_1736.txt
+exact answer: no
+countries:    
+
+File: 433_2473.txt
+bad response
+
+File: 433_2474.txt
+exact answer: no
+countries:    France
+
+File: 4343_707.txt
+exact answer: no
+countries:    
+
+File: 4344_709.txt
+exact answer: no
+countries:    
+
+File: 4366_2220.txt
+exact answer: no
+countries:    
+
+File: 4366_2221.txt
+exact answer: no
+countries:    
+
+File: 439_160.txt
+exact answer: no
+countries:    Pakistan
+
+File: 439_161.txt
+bad response
+
+File: 43_1644.txt
+exact answer: no
+countries:    Pakistan
+
+File: 4407_1483.txt
+exact answer: no
+countries:    
+
+File: 4407_1484.txt
+exact answer: no
+countries:    
+
+File: 4419_2139.txt
+exact answer: no
+countries:    
+
+File: 445_1737.txt
+exact answer: no
+countries:    
+
+File: 4465_2877.txt
+decode error
+
+File: 4465_2878.txt
+decode error
+
+File: 446_1738.txt
+exact answer: no
+countries:    Iraq,Afghanistan
+
+File: 446_1739.txt
+decode error
+
+File: 4503_2140.txt
+exact answer: no
+countries:    
+
+File: 4505_2141.txt
+exact answer: no
+countries:    
+
+File: 4553_750.txt
+exact answer: no
+countries:    
+
+File: 4555_2249.txt
+exact answer: no
+countries:    
+
+File: 4555_2250.txt
+exact answer: no
+countries:    
+
+File: 4555_2251.txt
+exact answer: no
+countries:    
+
+File: 4555_2252.txt
+exact answer: no
+countries:    
+
+File: 4555_2253.txt
+exact answer: no
+countries:    
+
+File: 4583_2142.txt
+exact answer: no
+countries:    
+
+File: 4587_2254.txt
+exact answer: no
+countries:    
+
+File: 4587_2255.txt
+exact answer: no
+countries:    
+
+File: 4588_2256.txt
+exact answer: no
+countries:    
+
+File: 4591_2257.txt
+exact answer: no
+countries:    
+
+File: 4592_2258.txt
+exact answer: no
+countries:    
+
+File: 4597_2259.txt
+exact answer: no
+countries:    
+
+File: 4597_2260.txt
+exact answer: no
+countries:    
+
+File: 4598_2261.txt
+exact answer: no
+countries:    
+
+File: 4599_2262.txt
+exact answer: no
+countries:    
+
+File: 4599_2263.txt
+exact answer: no
+countries:    
+
+File: 4599_2264.txt
+exact answer: no
+countries:    
+
+File: 4599_2265.txt
+exact answer: no
+countries:    
+
+File: 4599_2266.txt
+exact answer: no
+countries:    
+
+File: 45_1645.txt
+exact answer: no
+countries:    
+
+File: 4601_2267.txt
+exact answer: no
+countries:    
+
+File: 4602_2268.txt
+exact answer: no
+countries:    
+
+File: 4603_2269.txt
+exact answer: no
+countries:    
+
+File: 4604_2270.txt
+exact answer: no
+countries:    
+
+File: 4605_2271.txt
+exact answer: no
+countries:    
+
+File: 4606_2272.txt
+exact answer: no
+countries:    
+
+File: 4606_2273.txt
+exact answer: no
+countries:    
+
+File: 4607_2274.txt
+exact answer: no
+countries:    
+
+File: 4608_2275.txt
+exact answer: no
+countries:    
+
+File: 4609_2276.txt
+exact answer: no
+countries:    
+
+File: 4609_2277.txt
+exact answer: no
+countries:    
+
+File: 4610_2278.txt
+exact answer: no
+countries:    
+
+File: 4611_1485.txt
+exact answer: no
+countries:    
+
+File: 4612_1486.txt
+exact answer: no
+countries:    
+
+File: 4617_1496.txt
+exact answer: no
+countries:    
+
+File: 4618_1497.txt
+exact answer: no
+countries:    
+
+File: 4620_1498.txt
+exact answer: no
+countries:    
+
+File: 4620_1499.txt
+exact answer: no
+countries:    
+
+File: 4623_1500.txt
+exact answer: no
+countries:    
+
+File: 4624_1501.txt
+exact answer: no
+countries:    
+
+File: 4626_1502.txt
+exact answer: no
+countries:    
+
+File: 4627_1503.txt
+exact answer: no
+countries:    
+
+File: 4627_1504.txt
+exact answer: no
+countries:    
+
+File: 4627_1505.txt
+exact answer: no
+countries:    
+
+File: 4627_1506.txt
+exact answer: no
+countries:    
+
+File: 4627_1507.txt
+exact answer: no
+countries:    
+
+File: 4633_1508.txt
+exact answer: no
+countries:    
+
+File: 4633_1509.txt
+exact answer: no
+countries:    
+
+File: 4633_1510.txt
+exact answer: no
+countries:    
+
+File: 4640_1511.txt
+exact answer: no
+countries:    
+
+File: 4642_1512.txt
+exact answer: no
+countries:    
+
+File: 4644_1513.txt
+exact answer: no
+countries:    
+
+File: 4645_1514.txt
+exact answer: no
+countries:    
+
+File: 4646_1515.txt
+exact answer: no
+countries:    
+
+File: 4646_1516.txt
+exact answer: no
+countries:    
+
+File: 4647_1517.txt
+exact answer: no
+countries:    
+
+File: 4647_1518.txt
+exact answer: no
+countries:    
+
+File: 4647_1519.txt
+exact answer: no
+countries:    
+
+File: 4647_1520.txt
+exact answer: no
+countries:    
+
+File: 4648_1521.txt
+exact answer: no
+countries:    
+
+File: 4649_2279.txt
+exact answer: no
+countries:    
+
+File: 4650_2216.txt
+exact answer: no
+countries:    
+
+File: 4650_2217.txt
+exact answer: no
+countries:    
+
+File: 4650_2218.txt
+exact answer: no
+countries:    
+
+File: 4650_2219.txt
+exact answer: no
+countries:    
+
+File: 4651_2363.txt
+exact answer: no
+countries:    
+
+File: 46_1646.txt
+exact answer: no
+countries:    Nepal,Afghanistan
+
+File: 4787_1774.txt
+exact answer: no
+countries:    
+
+File: 4787_1775.txt
+exact answer: no
+countries:    
+
+File: 4787_1776.txt
+exact answer: no
+countries:    
+
+File: 47_1647.txt
+exact answer: no
+countries:    Canada,Afghanistan
+
+File: 47_1648.txt
+decode error
+
+File: 4853_1532.txt
+exact answer: no
+countries:    
+
+File: 4863_1544.txt
+exact answer: no
+countries:    
+
+File: 498_1740.txt
+bad response
+
+File: 4_1598.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 4_1599.txt
+exact answer: no
+countries:    Japan,Afghanistan
+
+File: 4_1600.txt
+exact answer: no
+countries:    Pakistan,Japan,Iran,France,Afghanistan
+
+File: 4_1601.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 4_1602.txt
+exact answer: no
+countries:    Japan,Afghanistan
+
+File: 4_1603.txt
+exact answer: no
+countries:    Japan,Afghanistan
+
+File: 4_1604.txt
+exact answer: no
+countries:    Pakistan,France,Afghanistan
+
+File: 4_1605.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 4_1606.txt
+decode error
+
+File: 523_2479.txt
+exact answer: no
+countries:    Sudan
+
+File: 523_2480.txt
+exact answer: no
+countries:    Sudan,France,Chad
+
+File: 523_2481.txt
+exact answer: no
+countries:    France
+
+File: 523_2482.txt
+decode error
+
+File: 523_2483.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 523_2484.txt
+exact answer: no
+countries:    France,Chad
+
+File: 523_2485.txt
+exact answer: no
+countries:    France
+
+File: 523_2486.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 523_2487.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 523_2488.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 523_2489.txt
+exact answer: no
+countries:    Sudan,France,Chad
+
+File: 523_2490.txt
+exact answer: no
+countries:    Chad
+
+File: 530_1142.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1143.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1144.txt
+exact answer: no
+countries:    Pakistan,Iraq
+
+File: 530_1145.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1146.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1147.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1148.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1149.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 530_1150.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1151.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1152.txt
+exact answer: no
+countries:    Rwanda,Pakistan
+
+File: 530_1153.txt
+exact answer: no
+countries:    Pakistan
+
+File: 530_1154.txt
+exact answer: no
+countries:    Pakistan
+
+File: 532_1746.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 532_1747.txt
+exact answer: no
+countries:    Iraq,France,Afghanistan
+
+File: 532_1748.txt
+exact answer: no
+countries:    France
+
+File: 532_1749.txt
+exact answer: no
+countries:    Ethiopia,Afghanistan
+
+File: 532_1750.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 532_1751.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 532_1752.txt
+exact answer: no
+countries:    Philippines,Nepal,Liberia,Afghanistan
+
+File: 532_1753.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 532_1754.txt
+exact answer: no
+countries:    Iraq,France,Afghanistan
+
+File: 532_1755.txt
+exact answer: no
+countries:    Kuwait,Iraq,Afghanistan
+
+File: 532_1756.txt
+decode error
+
+File: 535_1721.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 542_2373.txt
+exact answer: no
+countries:    France
+
+File: 543_2986.txt
+exact answer: no
+countries:    Colombia
+
+File: 544_2432.txt
+exact answer: no
+countries:    Somalia,France
+
+File: 544_2433.txt
+exact answer: no
+countries:    Somalia
+
+File: 557_1757.txt
+exact answer: no
+countries:    
+
+File: 558_1758.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 561_1760.txt
+exact answer: no
+countries:    
+
+File: 561_1761.txt
+exact answer: no
+countries:    
+
+File: 562_1762.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 563_1763.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 567_1764.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 568_1765.txt
+decode error
+
+File: 569_1766.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 56_1650.txt
+exact answer: no
+countries:    India,Afghanistan
+
+File: 56_1651.txt
+exact answer: no
+countries:    India,Bangladesh,Afghanistan
+
+File: 570_1767.txt
+exact answer: no
+countries:    
+
+File: 572_1768.txt
+exact answer: no
+countries:    
+
+File: 573_1769.txt
+exact answer: no
+countries:    
+
+File: 574_1770.txt
+exact answer: no
+countries:    
+
+File: 575_1771.txt
+exact answer: no
+countries:    
+
+File: 576_1786.txt
+exact answer: no
+countries:    
+
+File: 577_1787.txt
+exact answer: no
+countries:    
+
+File: 580_1788.txt
+exact answer: no
+countries:    
+
+File: 587_1789.txt
+decode error
+
+File: 58_1652.txt
+decode error
+
+File: 592_1790.txt
+exact answer: no
+countries:    
+
+File: 592_1791.txt
+exact answer: no
+countries:    
+
+File: 593_1792.txt
+exact answer: no
+countries:    
+
+File: 594_1793.txt
+exact answer: no
+countries:    
+
+File: 595_1794.txt
+exact answer: no
+countries:    
+
+File: 595_1795.txt
+exact answer: no
+countries:    
+
+File: 595_1796.txt
+exact answer: no
+countries:    
+
+File: 597_2374.txt
+exact answer: no
+countries:    Sudan,Seychelles,Mauritania,Mali,Chad
+
+File: 597_2375.txt
+exact answer: no
+countries:    Sudan,France,Chad
+
+File: 597_2376.txt
+exact answer: no
+countries:    Sudan,France,Chad
+
+File: 597_2378.txt
+bad response
+
+File: 597_2379.txt
+decode error
+
+File: 597_2380.txt
+decode error
+
+File: 597_2381.txt
+decode error
+
+File: 597_2382.txt
+exact answer: Central African Republic
+countries:    Sudan,Chad
+
+File: 5_1607.txt
+exact answer: no
+countries:    
+
+File: 61_2418.txt
+exact answer: no
+countries:    Chad
+
+File: 61_2419.txt
+exact answer: no
+countries:    Congo,Chad,Algeria
+
+File: 629_1722.txt
+exact answer: no
+countries:    Iraq
+
+File: 629_1723.txt
+exact answer: no
+countries:    Iraq
+
+File: 629_1724.txt
+exact answer: no
+countries:    
+
+File: 630_2495.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 630_2496.txt
+exact answer: no
+countries:    
+
+File: 630_2497.txt
+exact answer: no
+countries:    Chad
+
+File: 630_2498.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 631_1800.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 631_1801.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 631_1802.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1654.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1655.txt
+exact answer: no
+countries:    
+
+File: 67_1656.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1657.txt
+exact answer: no
+countries:    Iraq
+
+File: 67_1658.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1659.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1660.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 67_1661.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1662.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 67_1663.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 680_2505.txt
+decode error
+
+File: 693_1155.txt
+exact answer: no
+countries:    Pakistan,Germany,France,Afghanistan
+
+File: 693_1156.txt
+exact answer: Pakistan
+countries:    Pakistan
+
+File: 694_3010.txt
+exact answer: no
+countries:    Rwanda,Congo
+
+File: 694_3011.txt
+exact answer: no
+countries:    Rwanda,France,Congo
+
+File: 698_1157.txt
+decode error
+
+File: 713_1827.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 732_1183.txt
+exact answer: Pakistan
+countries:    
+
+File: 736_1184.txt
+exact answer: Pakistan
+countries:    
+
+File: 776_1846.txt
+decode error
+
+File: 776_1847.txt
+exact answer: no
+countries:    
+
+File: 780_1848.txt
+decode error
+
+File: 780_1849.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 786_2517.txt
+exact answer: no
+countries:    
+
+File: 786_2518.txt
+exact answer: no
+countries:    France,Chad
+
+File: 786_2519.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 788_3012.txt
+exact answer: no
+countries:    Congo
+
+File: 791_1850.txt
+exact answer: no
+countries:    
+
+File: 792_1851.txt
+exact answer: no
+countries:    Iraq,Afghanistan
+
+File: 792_1852.txt
+decode error
+
+File: 796_1853.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 797_3013.txt
+exact answer: no
+countries:    Congo
+
+File: 797_3014.txt
+exact answer: no
+countries:    Rwanda,France,Congo
+
+File: 798_1186.txt
+exact answer: no
+countries:    Greece,Afghanistan
+
+File: 798_1187.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 7_1608.txt
+decode error
+
+File: 803_1188.txt
+exact answer: no
+countries:    Pakistan,France,Afghanistan
+
+File: 803_1189.txt
+exact answer: no
+countries:    Pakistan
+
+File: 804_2520.txt
+exact answer: no
+countries:    Chad
+
+File: 805_1190.txt
+exact answer: no
+countries:    
+
+File: 807_1191.txt
+exact answer: no
+countries:    
+
+File: 807_1192.txt
+exact answer: no
+countries:    
+
+File: 807_1193.txt
+exact answer: no
+countries:    
+
+File: 807_1194.txt
+exact answer: no
+countries:    Pakistan,France,Afghanistan
+
+File: 807_1195.txt
+exact answer: no
+countries:    Pakistan
+
+File: 840_1854.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 840_1855.txt
+decode error
+
+File: 845_1196.txt
+exact answer: no
+countries:    Pakistan
+
+File: 847_2187.txt
+exact answer: Bangladesh
+countries:    Bangladesh
+
+File: 850_2377.txt
+decode error
+
+File: 883_3015.txt
+exact answer: no
+countries:    France,Congo
+
+File: 883_3017.txt
+exact answer: no
+countries:    Yemen
+
+File: 884_1197.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 884_1198.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 884_1199.txt
+exact answer: no
+countries:    
+
+File: 884_1200.txt
+exact answer: no
+countries:    Sudan,Pakistan,France
+
+File: 884_1201.txt
+exact answer: no
+countries:    
+
+File: 884_1202.txt
+decode error
+
+File: 885_1205.txt
+exact answer: no
+countries:    
+
+File: 887_2521.txt
+exact answer: no
+countries:    
+
+File: 887_2522.txt
+exact answer: no
+countries:    
+
+File: 889_3018.txt
+exact answer: no
+countries:    
+
+File: 908_1785.txt
+exact answer: Nicaragua
+countries:    
+
+File: 915_2523.txt
+exact answer: no
+countries:    Sudan,Chad
+
+File: 915_2524.txt
+exact answer: no
+countries:    Sudan,Pakistan,Kenya,Chad
+
+File: 916_1858.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 916_1859.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 916_1860.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 930_1863.txt
+decode error
+
+File: 951_1206.txt
+exact answer: no
+countries:    Pakistan
+
+File: 951_1207.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 951_1208.txt
+exact answer: no
+countries:    Pakistan
+
+File: 951_1209.txt
+decode error
+
+File: 951_1210.txt
+decode error
+
+File: 951_1211.txt
+decode error
+
+File: 951_1212.txt
+decode error
+
+File: 951_1213.txt
+decode error
+
+File: 971_1867.txt
+decode error
+
+File: 978_2226.txt
+exact answer: Bolivia
+countries:    Spain,Bolivia,Argentina
+
+File: 979_3019.txt
+exact answer: no
+countries:    
+
+File: 97_1664.txt
+exact answer: no
+countries:    Afghanistan
+
+File: 985_2982.txt
+decode error
+
+File: 990_1214.txt
+exact answer: Pakistan
+countries:    Pakistan,Netherlands,Afghanistan
+
+File: 990_1215.txt
+exact answer: no
+countries:    Pakistan
+
+File: 990_1216.txt
+exact answer: no
+countries:    Pakistan
+
+File: 990_1217.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 990_1218.txt
+bad response
+
+File: 990_1219.txt
+exact answer: no
+countries:    Pakistan,France
+
+File: 990_1220.txt
+decode error
+
+File: 990_1221.txt
+decode error
+
+File: 990_1222.txt
+decode error
+
+File: 991_1223.txt
+exact answer: no
+countries:    
+
+File: 993_1819.txt
+bad response
+
+File: 995_1870.txt
+exact answer: no
+countries:    France,Afghanistan
+
+File: 995_1871.txt
+exact answer: no
+countries:    Pakistan,Afghanistan
+
+File: 995_1872.txt
+exact answer: no
+countries:    Germany,Afghanistan
+
+File: 995_1873.txt
+decode error
+
+File: 997_3020.txt
+exact answer: no
+countries:    Rwanda,France,Congo
+
+File: 997_3021.txt
+exact answer: no
+countries:    Rwanda,Congo
+
+File: 997_3022.txt
+decode error
+
+File: 997_3023.txt
+decode error
+
+###################################################################
+
+925 articles have been proceeded in 14985267.62 ms
+180 articles have decode error
+20 articles have bad response
