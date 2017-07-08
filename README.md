@@ -1,4 +1,4 @@
-# How to start
+# How to start (check)
 
 # Download solr 
 http://lucene.apache.org/solr/
